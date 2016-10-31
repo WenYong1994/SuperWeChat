@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_contact.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\menu\\em_delete_contact.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_contact_list.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\menu\\em_context_contact_list.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_context_tab_contact.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\menu\\em_context_tab_contact.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_delete_message.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\menu\\em_delete_message.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\menu\\em_remove_from_blacklist.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\menu\\em_remove_from_blacklist.xml"
+    }
+]
