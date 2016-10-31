@@ -4,201 +4,201 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/em_activity_splash.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238fb69c-c3e5-430e-8fca-27527efb7927" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/abs__spinner_ab_default_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/afr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aii.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aj2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aj5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/auj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aul.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/aun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/auo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/bg_card.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/contact_list_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/contact_list_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/default_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/default_hd_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/find_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/find_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_instagram_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_sex_female.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_sex_male.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_addfriend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_creat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_register.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_game.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_nearby.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_ping.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_saoyisao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_shop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_yao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_groupinfo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_collect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_smail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_addfriend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_money.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_sao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_public.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_qunliao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_titleaddfriend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/img_toolbar_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/popmenu_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/profile_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/profile_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/search_ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/search_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/server_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/v2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/weixin_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/weixin_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/wo.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/wp.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-hdpi/zx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-nodpi/default_nor_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_audio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_send_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_actionbar_camera_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_camera_switch_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_camera_switch_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_default_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_empty_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_mm_title_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_msg_state_fail_resend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_roominfo_add_btn_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_roominfo_add_btn_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_seabar_input.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_video_recorder_start_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_video_recorder_stop_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_002.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_002_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_007.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_007_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_010.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_010_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_012.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_012_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_013.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_013_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_018.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_018_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_019.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_019_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_020.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_020_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_021.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_021_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_022.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_022_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_024.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_024_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_027.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_027_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_029.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_029_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_030.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_030_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_035.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_035_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_040.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_040_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_addfriend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_public.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/img_splach.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/user_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable-xhdpi/w9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hyphenatechat_3_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/redpacket_3_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/head_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/head_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_bottom_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_bottom_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_left_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_left_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_right_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_right_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_up_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/anim/push_up_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/color/em_main_botton_text_color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/color/tab_def_title_color_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/btn_bg_gray.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/btn_bg_green.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/btn_enable_green.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/edittext_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/em_context_menu_item_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/fab_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/progressbar_drawable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/setting_item_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/tab_contact_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/tab_find.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/tab_profile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/tab_weixin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/tip_round_red_bg_shape.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/drawable/titlepop_item_selector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/layout-hdpi/main_tab_text_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/layout/fragment_dicover.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/layout/layout_item_pop.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/layout/main_tab_bottom_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/layout/view_title_popup.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/loading_arrt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/loading_color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/loading_styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/swipe_fling_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/zx_colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/res/values/zx_ids.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/redpacket_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../easeui/libs/android-support-v4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/head_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/head_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_bottom_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_bottom_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_left_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_left_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_right_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_right_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_up_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/anim/push_up_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/color/em_main_botton_text_color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/color/tab_def_title_color_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/abs__spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/afr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aii.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aj2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aj5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/auj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aul.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/aun.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/auo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/bg_card.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/contact_list_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/contact_list_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/default_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/default_hd_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/find_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/find_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_instagram_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_sex_female.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/ic_sex_male.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_addfriend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_creat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_btn_register.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_game.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_ping.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_saoyisao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_shop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_de_yao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_groupinfo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_collect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_money.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_setting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_me_smail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_addfriend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_money.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_menu_sao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_public.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_qunliao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/icon_titleaddfriend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/img_toolbar_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/popmenu_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/profile_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/profile_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/search_ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/search_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/server_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/v2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/weixin_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/weixin_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/wo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/wp.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-hdpi/zx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-nodpi/default_nor_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_audio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_send_file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/chat_tool_video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_actionbar_camera_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_camera_switch_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_camera_switch_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_default_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_empty_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_mm_title_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_msg_state_fail_resend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_roominfo_add_btn_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_roominfo_add_btn_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_seabar_input.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_video_recorder_start_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/em_video_recorder_stop_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/gr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_002.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_002_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_007.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_007_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_010.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_010_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_012.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_012_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_013.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_013_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_018.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_018_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_019.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_019_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_020.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_020_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_021.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_021_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_022.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_022_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_024.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_024_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_027.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_027_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_029.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_029_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_030.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_030_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_035.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_035_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_040.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_040_cover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_addfriend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/icon_head_public.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/img_splach.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/user_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable-xhdpi/w9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/btn_bg_gray.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/btn_bg_green.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/btn_enable_green.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/edittext_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/em_context_menu_item_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/fab_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/progressbar_drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/setting_item_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/tab_contact_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/tab_find.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/tab_profile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/tab_weixin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/tip_round_red_bg_shape.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/drawable/titlepop_item_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/layout-hdpi/main_tab_text_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/layout/fragment_dicover.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/layout/layout_item_pop.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/layout/main_tab_bottom_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/layout/view_title_popup.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/loading_arrt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/loading_color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/loading_styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/swipe_fling_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/zx_colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/res/values/zx_ids.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -210,7 +210,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
@@ -220,23 +219,82 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/HwPush_SDK_V2705_nomap.xml" afterPath="$PROJECT_DIR$/.idea/libraries/HwPush_SDK_V2705_nomap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/MiPush_SDK_Client_2_2_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/MiPush_SDK_Client_2_2_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_http_legacy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/redpacketlibrary/unspecified/jars/libs/volley-1.0.19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/componentClasses.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/debug/libs/volley-1.0.19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/alipaySdk-20160516.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/alipaySdk-20160516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/redpacket-3.1.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/redpacket-3.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/volley-1.0.19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/bundles/release/libs/volley-1.0.19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/outputs/aar/redpacketlibrary-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/debug/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-debug.aar" afterPath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" afterPath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" afterPath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChatDemoUI3.0.iml" afterPath="$PROJECT_DIR$/ChatDemoUI3.0.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/blame/res/release/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/EaseUI.iml" afterPath="$PROJECT_DIR$/../easeui/EaseUI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build.gradle" afterPath="$PROJECT_DIR$/../easeui/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
     </list>
     <ignored path="ChatDemoUI3.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -265,27 +323,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SplashActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hyphenate/chatuidemo/ui/SplashActivity.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding>
-                <element signature="e#958#1881#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="em_activity_splash.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/em_activity_splash.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5206612">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.7078652">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -2375,7 +2417,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5900221141264" />
+        <entry key="$PROJECT_DIR$" value="5900226626499" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2392,7 +2434,6 @@
                           <list>
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.0.1/support-v4-23.0.1.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar" />
-                            <option value="$PROJECT_DIR$/../easeui/libs/android-support-v4.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/BaiduLBS_Android.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/google-play-services.jar" />
@@ -2498,7 +2539,6 @@
                           <list>
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.0.1/support-v4-23.0.1.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar" />
-                            <option value="$PROJECT_DIR$/../easeui/libs/android-support-v4.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/BaiduLBS_Android.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/google-play-services.jar" />
@@ -2607,7 +2647,6 @@
                           <list>
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.0.1/support-v4-23.0.1.aar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar" />
-                            <option value="$PROJECT_DIR$/../easeui/libs/android-support-v4.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/BaiduLBS_Android.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/glide-3.6.1.jar" />
                             <option value="$PROJECT_DIR$/../easeui/libs/google-play-services.jar" />
@@ -2700,7 +2739,6 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$MODULE_DIR$/libs/android-support-v4.jar" />
                             <option value="$MODULE_DIR$/libs/BaiduLBS_Android.jar" />
                             <option value="$MODULE_DIR$/libs/glide-3.6.1.jar" />
                             <option value="$MODULE_DIR$/libs/google-play-services.jar" />
@@ -2796,14 +2834,14 @@
         <option value="$PROJECT_DIR$/src/com/hyphenate/chatuidemo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../easeui/build/intermediates/res/merged/release/values-v21/values-v21.xml" />
-        <option value="$PROJECT_DIR$/../easeui/build.gradle" />
         <option value="$PROJECT_DIR$/res/layout/em_activity_splash.xml" />
+        <option value="$PROJECT_DIR$/../easeui/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1366" />
-    <option name="height" value="731" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2837,19 +2875,9 @@
               <option name="myItemId" value="ChatDemoUI3.0" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChatDemoUI3.0" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatDemoUI3.0" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2857,14 +2885,22 @@
               <option name="myItemId" value="ChatDemoUI3.0" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ChatDemoUI3.0" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EaseUI" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2875,8 +2911,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3177,17 +3211,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="731" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="732" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71727747" sideWeight="0.49693722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71602786" sideWeight="0.49693722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71727747" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3207,6 +3240,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785606" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3255,6 +3289,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/adapter/EaseExpressionPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redpacketlibrary/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4595588">
@@ -3275,7 +3327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1245136">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3283,7 +3334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4632353">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3294,14 +3344,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23661971">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3320,36 +3362,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/res/anim/head_in.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/icon_002.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/hyphenate/chatuidemo/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding>
-            <element signature="e#2804#2822#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.23161764">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hyphenate/chatuidemo/ui/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.112132356">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#958#1881#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3358,8 +3389,40 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5206612">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.303719">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5719844">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/ui/EaseBaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/adapter/EaseExpressionPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../easeui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7078652">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>

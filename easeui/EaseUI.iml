@@ -98,7 +98,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="HwPush_SDK_V2705_nomap" level="project" />
     <orderEntry type="library" exported="" name="hyphenatechat_3.1.5" level="project" />
-    <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="MiPush_SDK_Client_2_2_19" level="project" />
     <orderEntry type="library" exported="" name="org.apache.http.legacy" level="project" />
     <orderEntry type="library" exported="" name="BaiduLBS_Android" level="project" />

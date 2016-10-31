@@ -16,12 +16,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable\\ease_edit_text_bg.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable\\ease_btn_blue_selector.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable\\ease_btn_blue_selector.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",

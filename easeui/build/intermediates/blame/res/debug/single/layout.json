@@ -144,16 +144,16 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_file.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_video.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_chat_history.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
