@@ -1,4 +1,4 @@
-package cn.ucai.fulicenter.bean;
+package cn.ucai.superwechat.bean;
 
 public class Result {
 
@@ -20,7 +20,7 @@ public class Result {
      * mavatarLastUpdateTime : 1476284146171
      */
 
-    private RetData retData;
+    private Object retData;
 
     public int getRetCode() {
         return retCode;
@@ -38,11 +38,11 @@ public class Result {
         this.retMsg = retMsg;
     }
 
-    public RetData getRetData() {
+    public Object getRetData() {
         return retData;
     }
 
-    public void setRetData(RetData userAvatar) {
+    public void setRetData(Object userAvatar) {
         this.retData = retData;
     }
 
