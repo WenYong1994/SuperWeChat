@@ -100,8 +100,16 @@ public class RegisterActivity extends BaseActivity {
             public void onSuccess(Result result) {
                 if(result.isRetMsg()){
                     registerHX(username,pwd);
-                }else if(result.getRetCode()!=101){
-                    deteUserNameApp(username);
+                }else {
+                    if(result.getRetCode()!=101){
+                        CommonUtils.showShortToast("注册失败");
+                       deteUserNameApp(username);
+                    }
+                    if(!RegisterActivity.this.isFinishing()){
+                        pd.dismiss();
+                        CommonUtils.showShortToast("注册失败，账号已存在");
+                    }
+
                 }
             }
 
@@ -129,6 +137,7 @@ public class RegisterActivity extends BaseActivity {
                                 SuperWeChatHelper.getInstance().setCurrentUserName(username);
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
                                 MFGT.gotoLoginActivity(RegisterActivity.this);
+                                MFGT.finish(RegisterActivity.this);
                             }
                         });
                     } catch (final HyphenateException e) {
