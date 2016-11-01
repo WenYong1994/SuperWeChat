@@ -48,12 +48,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_chat_image_pressed.png"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ease_chat_send_btn_pressed.9.png",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_chat_send_btn_pressed.9.png"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ease_chat_voice_call_receive.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_chat_voice_call_receive.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ease_chat_send_btn_pressed.9.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_chat_send_btn_pressed.9.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ease_chat_takepic_pressed.png",
