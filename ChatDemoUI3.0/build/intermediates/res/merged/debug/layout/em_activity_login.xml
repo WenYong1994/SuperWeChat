@@ -83,21 +83,24 @@
                 android:singleLine="true"
                 android:textSize="18sp" />
         </RelativeLayout>
-        <View
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_marginTop="10dp"
+            android:text="登录"
+            android:textColor="@color/white"
             android:layout_below="@id/rl_password"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="40dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@color/gray"/>
+            android:background="@color/green"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/rl_password"
+            android:layout_below="@id/btn_Login"
             android:layout_marginTop="30dp"
             >
-
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\values-w820dp\\em_dimens.xml",
+                    "file": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\values-w820dp\\dimens.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 305,
+                        "startOffset": 295,
                         "endColumn": 57,
-                        "endOffset": 358
+                        "endOffset": 348
                     }
                 }
             }
