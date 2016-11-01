@@ -7,6 +7,7 @@ import android.view.animation.AlphaAnimation;
 import com.hyphenate.chat.EMClient;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * 开屏页
@@ -48,14 +49,14 @@ public class SplashActivity extends BaseActivity {
 					}
 					//enter main screen
 					startActivity(new Intent(SplashActivity.this, MainActivity.class));
-					finish();
+					MFGT.finish(SplashActivity.this);
 				}else {
 					try {
 						Thread.sleep(sleepTime);
 					} catch (InterruptedException e) {
 					}
 					startActivity(new Intent(SplashActivity.this, GuideActivity.class));
-					finish();
+					MFGT.finish(SplashActivity.this);
 				}
 			}
 		}).start();

@@ -2,5 +2,9 @@
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\main_tab_text_item.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout-hdpi\\main_tab_text_item.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout-hdpi-v4\\common_title.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout-hdpi\\common_title.xml"
     }
 ]

@@ -13,7 +13,7 @@
 -printconfiguration 'E:\androidDevelopment\SuperWechat\ChatDemoUI3.0\build\intermediates\multi-dex\debug\components.flags'
 
 
--keep class cn.ucai.superwechat.DemoApplication {
+-keep class cn.ucai.superwechat.SuperWeChatApplication {
     <init>();
     void attachBaseContext(android.content.Context);
 }

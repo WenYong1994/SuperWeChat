@@ -4,26 +4,27 @@
     android:background="@color/black"
     android:layout_height="match_parent">
     <ImageView
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/icon_logo"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:id="@+id/iv_logo"
         />
     <Button
         android:textColor="@color/white"
         android:id="@+id/btn_Login"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="登录"
         android:background="@color/green"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/iv_logo"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="50dp"
         />
     <Button
         android:id="@+id/btn_Register"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="注册"
         android:layout_centerHorizontal="true"

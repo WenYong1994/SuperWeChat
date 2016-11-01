@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical" >
-    <include layout="@layout/item_login_top_title"/>
+    <include layout="@layout/common_title"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                 android:textSize="18sp" />
         </RelativeLayout>
         <Button
-            android:id="@+id/btn_Login"
+            android:id="@+id/m_Btn_Login"
             android:layout_marginTop="10dp"
             android:text="登录"
             android:textColor="@color/white"
@@ -102,6 +102,7 @@
             android:layout_marginTop="30dp"
             >
             <Button
+                android:id="@+id/m_Btn_Resgiter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"

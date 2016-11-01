@@ -22,7 +22,7 @@ public class CommonUtils {
     public static void showShortToast(int rId){
         showShortToast(SuperWeChatApplication.getInstance().getString(rId));
     }
-    public static void showLongResultMsg(int msg){
+   /* public static void showLongResultMsg(int msg){
         showLongToast(getMsgString(msg));
     }
     public static void showShortResultMsg(int msg){
@@ -36,7 +36,7 @@ public class CommonUtils {
                             SuperWeChatApplication.getInstance().getPackageName());
         }
         return resId;
-    }
+    }*/
 
     public static String getWeChatNoString(){
         return SuperWeChatApplication.getInstance().getString(R.string.userinfo_txt_wechat_no);
