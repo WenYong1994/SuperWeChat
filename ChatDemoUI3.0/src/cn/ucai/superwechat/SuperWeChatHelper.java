@@ -217,14 +217,7 @@ public class SuperWeChatHelper {
             
             @Override
             public EaseUser getUser(String username) {
-
-                //return getUserInfo(username);
-                EaseUser user = new EaseUser(username);
-                User user1 = SuperWeChatHelper.getInstance().getUser();
-                user.setNickname(user1.getMUserNick());
-                user.setAvatar(user1.getMAvatarPath());
-                //这里设置返回正确的
-                return user;
+                return getUserInfo(username);
             }
         });
 
