@@ -44,6 +44,7 @@ import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
 import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 /**
  * Login screen
@@ -59,6 +60,7 @@ public class LoginActivity extends BaseActivity {
 
     private boolean progressShow;
     private boolean autoLogin = false;
+    ProgressDialog pd=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,7 +119,8 @@ public class LoginActivity extends BaseActivity {
         }
 
         progressShow = true;
-        final ProgressDialog pd = new ProgressDialog(LoginActivity.this);
+        pd=null;
+        pd = new ProgressDialog(LoginActivity.this);
         pd.setCanceledOnTouchOutside(false);
         pd.setOnCancelListener(new OnCancelListener() {
 
@@ -145,28 +148,7 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void onSuccess() {
                 Log.d(TAG, "login: onSuccess");
-                // ** manually load all local groups and conversation
-                EMClient.getInstance().groupManager().loadAllGroups();
-                EMClient.getInstance().chatManager().loadAllConversations();
-
-                // update current user's display name for APNs
-                boolean updatenick = EMClient.getInstance().updateCurrentUserNick(
-                        SuperWeChatApplication.currentUserNick.trim());
-                if (!updatenick) {
-                    Log.e("LoginActivity", "update current user nick fail");
-                }
-
-                if (!LoginActivity.this.isFinishing() && pd.isShowing()) {
-                    pd.dismiss();
-                }
-                // get user's info (this should be get from App's server or 3rd party service)
-                SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
-
-                Intent intent = new Intent(LoginActivity.this,
-                        MainActivity.class);
-                startActivity(intent);
-
-                finish();
+                loginApp();
             }
 
             @Override
@@ -182,6 +164,9 @@ public class LoginActivity extends BaseActivity {
                 }
                 runOnUiThread(new Runnable() {
                     public void run() {
+                        if(!LoginActivity.this.isFinishing()){
+                            pd.dismiss();
+                        }
                         pd.dismiss();
                         Toast.makeText(getApplicationContext(), getString(R.string.Login_failed) + message,
                                 Toast.LENGTH_SHORT).show();
@@ -189,6 +174,31 @@ public class LoginActivity extends BaseActivity {
                 });
             }
         });
+    }
+
+    private void isLoginSuccess() {
+        // ** manually load all local groups and conversation
+        EMClient.getInstance().groupManager().loadAllGroups();
+        EMClient.getInstance().chatManager().loadAllConversations();
+
+        // update current user's display name for APNs
+        boolean updatenick = EMClient.getInstance().updateCurrentUserNick(
+                SuperWeChatApplication.currentUserNick.trim());
+        if (!updatenick) {
+            Log.e("LoginActivity", "update current user nick fail");
+        }
+
+        if (!LoginActivity.this.isFinishing() && pd.isShowing()) {
+            pd.dismiss();
+        }
+        // get user's info (this should be get from App's server or 3rd party service)
+        SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
+
+        Intent intent = new Intent(LoginActivity.this,
+                MainActivity.class);
+        startActivity(intent);
+
+        finish();
     }
 
 
@@ -216,7 +226,7 @@ public class LoginActivity extends BaseActivity {
                 MFGT.finish(this);
                 break;
             case R.id.m_Btn_Login:
-                loginApp();
+                login();
                 break;
             case R.id.m_Btn_Resgiter:
                 MFGT.gotoRegisterActivity(this);
@@ -242,16 +252,21 @@ public class LoginActivity extends BaseActivity {
             Toast.makeText(this, R.string.Password_cannot_be_empty, Toast.LENGTH_SHORT).show();
             return;
         }
-        NetDao.login(this, currentUsername, currentPassword, new OkHttpUtils.OnCompleteListener<Result>() {
+        NetDao.login(this, currentUsername, currentPassword, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
-            public void onSuccess(Result result) {
-                if(result.isRetMsg()){
-                    login();
+            public void onSuccess(String result) {
+                if(result==null){
+                    return;
+                }
+                Result result1 = ResultUtils.getResultFromJson(result, Result.class);
+                if(result1.isRetMsg()){
+                    isLoginSuccess();
                 }
             }
 
             @Override
             public void onError(String error) {
+                pd.dismiss();
                 CommonUtils.showShortToast("网络请求失败");
             }
         });
