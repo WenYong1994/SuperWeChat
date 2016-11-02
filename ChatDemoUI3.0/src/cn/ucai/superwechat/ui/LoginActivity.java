@@ -26,8 +26,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
+import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 
 import butterknife.Bind;
@@ -40,6 +42,7 @@ import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
+import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
@@ -252,14 +255,22 @@ public class LoginActivity extends BaseActivity {
             Toast.makeText(this, R.string.Password_cannot_be_empty, Toast.LENGTH_SHORT).show();
             return;
         }
+
         NetDao.login(this, currentUsername, currentPassword, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
                 if(result==null){
                     return;
                 }
-                Result result1 = ResultUtils.getResultFromJson(result, Result.class);
+                Gson gson = new Gson();
+                Result result1 = gson.fromJson(result, Result.class);
+                String gsonStr = result1.getRetData().toString();
+                User user = gson.fromJson(gsonStr,User.class);
                 if(result1.isRetMsg()){
+                    //将数据保存到数据库
+                    new UserDao(LoginActivity.this).savaUser(user);
+                    //将对象保存到内存
+                    SuperWeChatHelper.getInstance().setUser(user);
                     isLoginSuccess();
                 }
             }

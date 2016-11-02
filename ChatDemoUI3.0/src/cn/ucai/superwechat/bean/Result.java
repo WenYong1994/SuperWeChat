@@ -20,7 +20,7 @@ public class Result {
      * mavatarLastUpdateTime : 1476284146171
      */
 
-    private Object retData;
+    private RetData retData;
 
     public int getRetCode() {
         return retCode;
@@ -38,11 +38,11 @@ public class Result {
         this.retMsg = retMsg;
     }
 
-    public Object getRetData() {
+    public RetData getRetData() {
         return retData;
     }
 
-    public void setRetData(Object userAvatar) {
+    public void setRetData(RetData userAvatar) {
         this.retData = retData;
     }
 

@@ -39,6 +39,8 @@ import cn.ucai.superwechat.ui.MainActivity;
 import cn.ucai.superwechat.ui.VideoCallActivity;
 import cn.ucai.superwechat.ui.VoiceCallActivity;
 import cn.ucai.superwechat.utils.PreferenceManager;
+
+import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.controller.EaseUI;
 import com.hyphenate.easeui.controller.EaseUI.EaseEmojiconInfoProvider;
 import com.hyphenate.easeui.controller.EaseUI.EaseSettingsProvider;
@@ -123,6 +125,8 @@ public class SuperWeChatHelper {
 
     private InviteMessgeDao inviteMessgeDao;
     private UserDao userDao;
+
+    private User   user;
 
     private LocalBroadcastManager broadcastManager;
 
@@ -1230,6 +1234,17 @@ public class SuperWeChatHelper {
         setRobotList(null);
         getUserProfileManager().reset();
         SuperWeChatDBManager.getInstance().closeDB();
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        if(user==null){
+            user=new User(EMClient.getInstance().getCurrentUser());
+        }
+        this.user = user;
     }
 
     public void pushActivity(Activity activity) {
