@@ -662,6 +662,7 @@ com/hyphenate/chat/EMMessageBody.class
 org/apache/http/client/UserTokenHandler.class
 android/support/v4/view/ScrollingView.class
 org/apache/http/cookie/CookieOrigin.class
+cn/ucai/superwechat/ui/LoginActivity$4.class
 org/apache/http/entity/StringEntity.class
 android/support/v7/app/ActionBar$Tab.class
 org/apache/http/HttpInetConnection.class
@@ -1036,6 +1037,7 @@ cn/ucai/superwechat/data/OkHttpUtils$OnCompleteListener.class
 com/huawei/android/pushagent/PushReceiver$ReceiveType.class
 org/apache/http/impl/auth/UnsupportedDigestAlgorithmException.class
 org/apache/http/util/CharArrayBuffer.class
+cn/ucai/superwechat/utils/MD5.class
 butterknife/OnPageChange.class
 cn/ucai/superwechat/ui/VideoCallActivity$2.class
 org/apache/http/impl/conn/LoggingSessionOutputBuffer.class
