@@ -277,10 +277,20 @@ public class LoginActivity extends BaseActivity {
 
             @Override
             public void onError(String error) {
-                pd.dismiss();
+                if(!LoginActivity.this.isFinishing()){
+                    pd.dismiss();
+                }
+
                 CommonUtils.showShortToast("网络请求失败");
             }
         });
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //解决异步加载时出现的异常，因为在关闭Activity时关闭pd出现的异常。
+        pd.dismiss();
     }
 }

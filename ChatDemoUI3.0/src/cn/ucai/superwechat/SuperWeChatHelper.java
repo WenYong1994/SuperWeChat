@@ -38,6 +38,7 @@ import cn.ucai.superwechat.ui.ChatActivity;
 import cn.ucai.superwechat.ui.MainActivity;
 import cn.ucai.superwechat.ui.VideoCallActivity;
 import cn.ucai.superwechat.ui.VoiceCallActivity;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.PreferenceManager;
 
 import com.hyphenate.easeui.bean.User;
@@ -126,7 +127,7 @@ public class SuperWeChatHelper {
     private InviteMessgeDao inviteMessgeDao;
     private UserDao userDao;
 
-    private User   user;
+    private User  user;
 
     private LocalBroadcastManager broadcastManager;
 
@@ -216,7 +217,14 @@ public class SuperWeChatHelper {
             
             @Override
             public EaseUser getUser(String username) {
-                return getUserInfo(username);
+
+                //return getUserInfo(username);
+                EaseUser user = new EaseUser(username);
+                User user1 = SuperWeChatHelper.getInstance().getUser();
+                user.setNickname(user1.getMUserNick());
+                user.setAvatar(user1.getMAvatarPath());
+                //这里设置返回正确的
+                return user;
             }
         });
 
@@ -710,6 +718,8 @@ public class SuperWeChatHelper {
 		// To get instance of EaseUser, here we get it from the user list in memory
 		// You'd better cache it if you get it from your server
         EaseUser user = null;
+        L.e(TAG,username+","+EMClient.getInstance().getCurrentUser());
+
         if(username.equals(EMClient.getInstance().getCurrentUser()))
             return getUserProfileManager().getCurrentUserInfo();
         user = getContactList().get(username);

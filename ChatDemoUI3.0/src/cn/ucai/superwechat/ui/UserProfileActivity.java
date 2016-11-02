@@ -7,6 +7,8 @@ import com.hyphenate.EMValueCallBack;
 import com.hyphenate.chat.EMClient;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+
+import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 
@@ -126,7 +128,12 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
 				    if(isFinishing()){
 				        return;
 				    }
+
+					/*User user1 = SuperWeChatHelper.getInstance().getUser();
+					tvNickName.setText(user1.getMUserNick());*/
+
 					tvNickName.setText(user.getNick());
+
 					if(!TextUtils.isEmpty(user.getAvatar())){
 						 Glide.with(UserProfileActivity.this).load(user.getAvatar()).placeholder(R.drawable.em_default_avatar).into(headAvatar);
 					}else{
