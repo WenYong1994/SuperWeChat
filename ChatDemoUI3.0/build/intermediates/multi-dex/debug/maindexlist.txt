@@ -268,6 +268,7 @@ org/apache/http/impl/auth/DigestScheme.class
 cn/ucai/superwechat/ui/SettingsFragment.class
 com/easemob/redpacketui/d/c.class
 android/support/v4/view/VelocityTrackerCompat.class
+cn/ucai/superwechat/adapter/MainTabAdpter.class
 org/apache/http/impl/cookie/BasicClientCookie.class
 org/apache/http/util/ExceptionUtils.class
 com/easemob/redpacketui/utils/RedPacketUtil.class
@@ -294,7 +295,9 @@ com/easemob/redpacketui/recyclerview/widget/RecyclerView$ItemDecoration.class
 com/bumptech/glide/load/resource/bitmap/TransformationUtils.class
 org/apache/commons/logging/impl/NoOpLog.class
 com/hyphenate/chat/EMMipushReceiver.class
+cn/ucai/superwechat/widget/MFViewPager.class
 com/easemob/redpacketui/recyclerview/widget/RecyclerView$5.class
+cn/ucai/superwechat/widget/DMTabHost.class
 android/support/v4/view/ViewCompatMarshmallow.class
 org/apache/http/protocol/ResponseContent.class
 android/support/v4/media/MediaBrowserCompat$CallbackHandler.class
@@ -565,6 +568,8 @@ android/support/v7/app/AppCompatDelegate.class
 android/support/annotation/Keep.class
 com/huawei/android/pushagent/b/b/a.class
 com/easemob/redpacketui/recyclerview/widget/DefaultItemAnimator.class
+android/support/v4/app/FragmentStatePagerAdapter.class
+cn/ucai/superwechat/ui/DiscoverFragment.class
 com/easemob/redpacketui/netstatus/b.class
 com/hyphenate/easeui/widget/EaseSidebar.class
 com/hyphenate/chat/EMGCMBroadcastReceiver.class
@@ -928,6 +933,7 @@ org/apache/http/impl/NoConnectionReuseStrategy.class
 org/apache/http/entity/InputStreamEntity.class
 android/support/multidex/MultiDexExtractor$1.class
 com/easemob/redpacketui/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+android/support/v4/view/PagerAdapter.class
 com/umeng/update/UpdateConfig.class
 org/apache/http/conn/HttpHostConnectException.class
 com/umeng/update/UpdateDialogActivity.class
@@ -1196,6 +1202,7 @@ cn/ucai/superwechat/ui/ChatRoomDetailsActivity$2.class
 org/apache/http/impl/conn/tsccm/RefQueueHandler.class
 org/apache/http/cookie/CookieSpec.class
 com/android/volley/Request.class
+cn/ucai/superwechat/widget/DMTabHost$OnCheckedChangeListener.class
 android/support/annotation/IntRange.class
 org/apache/http/protocol/BasicHttpProcessor.class
 org/apache/http/HttpRequestFactory.class
@@ -1285,6 +1292,7 @@ org/apache/http/impl/cookie/RFC2109DomainHandler.class
 org/apache/http/HttpConnection.class
 com/easemob/redpacketui/recyclerview/widget/ChildHelper$Callback.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21.class
+android/support/v4/view/ViewPager$OnPageChangeListener.class
 org/apache/http/HttpConnectionMetrics.class
 org/apache/commons/codec/StringEncoderComparator.class
 android/support/v4/content/PermissionChecker$PermissionResult.class

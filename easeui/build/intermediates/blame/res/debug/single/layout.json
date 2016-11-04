@@ -32,12 +32,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_commom_back_btn.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_contact_list.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_sent_voice_call.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_contact_list.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_contact_list.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
@@ -72,20 +72,20 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_sent_video_call.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_expression_gridview.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_sent_location.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_expression.xml"
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_expression_gridview.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_picture.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_sent_picture.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_expression.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
@@ -144,16 +144,16 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
     },
     {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_video.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_chat_history.xml"
-    },
-    {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_file.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",

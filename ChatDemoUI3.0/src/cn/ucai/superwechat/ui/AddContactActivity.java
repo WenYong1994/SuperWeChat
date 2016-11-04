@@ -31,8 +31,8 @@ import com.hyphenate.easeui.widget.EaseAlertDialog;
 public class AddContactActivity extends BaseActivity{
 	private EditText editText;
 	private RelativeLayout searchedUserLayout;
-	private TextView nameText;
 	private Button searchBtn;
+	private TextView nameText;
 	private String toAddUsername;
 	private ProgressDialog progressDialog;
 
