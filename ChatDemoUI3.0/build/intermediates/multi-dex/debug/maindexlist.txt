@@ -227,6 +227,7 @@ u/upd/c.class
 org/apache/http/impl/cookie/RFC2109SpecFactory.class
 com/huawei/android/pushagent/b/f/a.class
 android/support/v4/view/ViewCompatBase.class
+cn/ucai/superwechat/utils/L.class
 com/android/volley/toolbox/ImageRequest.class
 org/apache/http/impl/conn/tsccm/BasicPoolEntryRef.class
 org/apache/http/conn/params/ConnManagerPNames.class

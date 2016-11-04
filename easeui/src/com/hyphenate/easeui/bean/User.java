@@ -1,5 +1,8 @@
 package com.hyphenate.easeui.bean;
 
+import com.hyphenate.easeui.utils.EaseCommonUtils;
+import com.hyphenate.easeui.utils.EaseUserUtils;
+
 import java.io.Serializable;
 
 
@@ -90,17 +93,20 @@ public class User implements Serializable {
 	}
 
 	public String getMAvatarSuffix() {
-		return mavatarSuffix;
+		if(this.mavatarSuffix==null||mavatarSuffix.equals("null")){
+			return ".jpg";
+		}
+		return this.mavatarSuffix;
 	}
 
-	/*public String getInitialLetter() {
+	public String getAppInitialLetter() {
 		if(initialLetter == null){
-			UserUtils.setUserInitialLetter(this);
+			EaseCommonUtils.setAppUserInitialLetter(this);
 		}
 		return initialLetter;
-	}*/
+	}
 
-	public void setInitialLetter(String initialLetter) {
+	public void setAppInitialLetter(String initialLetter) {
 		this.initialLetter = initialLetter;
 	}
 
@@ -109,5 +115,10 @@ public class User implements Serializable {
 		return "UserAvatar [muserName=" + muserName + ", muserNick=" + muserNick + ", mavatarId=" + mavatarId
 				+ ", mavatarPath=" + mavatarPath + ", mavatarSuffix=" + mavatarSuffix + ", mavatarType=" + mavatarType
 				+ ", mavatarLastUpdateTime=" + mavatarLastUpdateTime + "]";
+	}
+
+	public String getAvatar() {
+		String path ="http://101.251.196.90:8000/SuperWeChatServerV2.0/downloadAvatar?name_or_hxid="+getMUserName()+"&avatarType=user_avatar&m_avatar_suffix="+getMAvatarSuffix();
+		return path;
 	}
 }

@@ -220,6 +220,9 @@ public class LoginActivity extends BaseActivity {
         if (autoLogin) {
             return;
         }
+        if (SuperWeChatHelper.getInstance().getCurrentUsernName() != null) {
+            mUsername.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
+        }
     }
 
     @OnClick({R.id.common_back, R.id.m_Btn_Login, R.id.m_Btn_Resgiter})
@@ -262,8 +265,12 @@ public class LoginActivity extends BaseActivity {
                 if(result==null){
                     return;
                 }
+                L.e(result.toString());
                 Gson gson = new Gson();
                 Result result1 = gson.fromJson(result, Result.class);
+                if(result1==null||result1.getRetData()==null){
+                    return;
+                }
                 String gsonStr = result1.getRetData().toString();
                 User user = gson.fromJson(gsonStr,User.class);
                 if(result1.isRetMsg()){
@@ -291,6 +298,8 @@ public class LoginActivity extends BaseActivity {
     protected void onDestroy() {
         super.onDestroy();
         //解决异步加载时出现的异常，因为在关闭Activity时关闭pd出现的异常。
-        pd.dismiss();
+        if(pd!=null){
+            pd.dismiss();
+        }
     }
 }
