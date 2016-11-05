@@ -228,6 +228,7 @@ u/upd/c.class
 org/apache/http/impl/cookie/RFC2109SpecFactory.class
 com/huawei/android/pushagent/b/f/a.class
 android/support/v4/view/ViewCompatBase.class
+cn/ucai/superwechat/utils/L.class
 com/android/volley/toolbox/ImageRequest.class
 org/apache/http/impl/conn/tsccm/BasicPoolEntryRef.class
 org/apache/http/conn/params/ConnManagerPNames.class
@@ -363,6 +364,7 @@ com/easemob/redpacketsdk/callback/PayInfoCallback.class
 com/umeng/update/net/b.class
 cn/ucai/superwechat/ui/AddContactActivity.class
 android/support/v4/media/MediaBrowserCompat$1.class
+cn/ucai/superwechat/ui/UserProfileActivity$7.class
 android/support/v4/media/VolumeProviderCompat$1.class
 com/baidu/platform/comjni/map/basemap/b.class
 cn/ucai/superwechat/ui/VideoCallActivity.class
@@ -592,6 +594,7 @@ com/alipay/tscenter/biz/rpc/deviceFp/BugTrackMessageService.class
 cn/ucai/superwechat/ui/CallActivity.class
 com/huawei/android/pushagent/PushReceiver$Event.class
 org/apache/http/entity/ContentLengthStrategy.class
+com/hyphenate/easeui/utils/EaseImageUtils.class
 android/support/v4/view/animation/LookupTableInterpolator.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
 android/support/annotation/CheckResult.class
@@ -1062,6 +1065,7 @@ org/apache/http/impl/conn/SingleClientConnManager.class
 android/support/v4/content/PermissionChecker.class
 cn/ucai/superwechat/ui/PublicGroupsSeachActivity$1.class
 com/easemob/redpacketui/recyclerview/widget/RecyclerView$ViewCacheExtension.class
+cn/ucai/superwechat/I.class
 com/baidu/platform/comapi/map/MapRenderer$a.class
 org/apache/http/impl/io/IdentityOutputStream.class
 cn/ucai/superwechat/ui/ImageGridFragment.class
