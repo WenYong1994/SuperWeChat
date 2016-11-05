@@ -173,6 +173,7 @@ android/support/v4/media/MediaMetadataCompat$RatingKey.class
 android/support/v4/view/MotionEventCompat.class
 org/apache/http/conn/EofSensorInputStream.class
 com/parse/ParseUser.class
+cn/ucai/superwechat/utils/CommonUtils.class
 com/huawei/android/pushagent/PushReceiver.class
 cn/ucai/superwechat/ui/RecorderVideoActivity$5.class
 com/hyphenate/easeui/ui/EaseShowBigImageActivity$1.class
@@ -227,7 +228,6 @@ u/upd/c.class
 org/apache/http/impl/cookie/RFC2109SpecFactory.class
 com/huawei/android/pushagent/b/f/a.class
 android/support/v4/view/ViewCompatBase.class
-cn/ucai/superwechat/utils/L.class
 com/android/volley/toolbox/ImageRequest.class
 org/apache/http/impl/conn/tsccm/BasicPoolEntryRef.class
 org/apache/http/conn/params/ConnManagerPNames.class
@@ -613,6 +613,7 @@ cn/ucai/superwechat/SuperWeChatModel.class
 android/support/multidex/MultiDex$V4.class
 android/support/annotation/TransitionRes.class
 android/support/annotation/PluralsRes.class
+com/hyphenate/easeui/bean/User.class
 cn/ucai/superwechat/ui/NewGroupActivity.class
 android/support/v4/media/RatingCompat$Style.class
 org/apache/http/util/VersionInfo.class
@@ -1284,6 +1285,7 @@ cn/ucai/superwechat/ui/GuideActivity.class
 cn/ucai/superwechat/ui/SplashActivity$1.class
 android/support/annotation/UiThread.class
 com/umeng/update/net/a$a.class
+cn/ucai/superwechat/ui/UserProfileActivity$6.class
 org/apache/http/auth/params/AuthParams.class
 com/baidu/mapapi/BMapManager.class
 org/apache/http/impl/cookie/BasicSecureHandler.class

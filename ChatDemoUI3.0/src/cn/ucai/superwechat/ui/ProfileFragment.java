@@ -80,7 +80,7 @@ public class ProfileFragment extends Fragment {
         switch (view.getId()) {
 
             case R.id.layout_profile_view:
-
+                MFGT.gotoUserProfileActivity(getActivity());
                 break;
 
             //red packet code : 进入零钱页面
@@ -106,5 +106,12 @@ public class ProfileFragment extends Fragment {
         }else if(((MainActivity)getActivity()).getCurrentAccountRemoved()){
             outState.putBoolean(Constant.ACCOUNT_REMOVED, true);
         }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        EaseUserUtils.setCurrentAppUserAvatar(getActivity(),ivPrifileAvatar);
+        EaseUserUtils.setCurrentAppUserNick(tvProfileNickname);
     }
 }
