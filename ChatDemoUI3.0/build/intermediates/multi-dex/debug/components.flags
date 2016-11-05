@@ -166,6 +166,10 @@
     <init>();
 }
 
+-keep class cn.ucai.superwechat.ui.SettingsActivity {
+    <init>();
+}
+
 -keep class com.easemob.redpacketui.ui.activity.RPRedPacketActivity {
     <init>();
 }

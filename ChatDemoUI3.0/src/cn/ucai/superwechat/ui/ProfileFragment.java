@@ -75,11 +75,12 @@ public class ProfileFragment extends Fragment {
         ButterKnife.unbind(this);
     }
 
-    @OnClick({R.id.tv_profile_photo, R.id.tv_profile_money, R.id.tv_profile_setting})
+    @OnClick({R.id.layout_profile_view, R.id.tv_profile_money, R.id.tv_profile_setting})
     public void onClick(View view) {
         switch (view.getId()) {
 
-            case R.id.tv_profile_photo:
+            case R.id.layout_profile_view:
+
                 break;
 
             //red packet code : 进入零钱页面
@@ -91,6 +92,7 @@ public class ProfileFragment extends Fragment {
 
 
             case R.id.tv_profile_setting:
+                MFGT.gotoSettingActivity(getActivity());
                 break;
         }
     }

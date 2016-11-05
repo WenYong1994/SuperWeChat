@@ -39,6 +39,7 @@
 -keep class cn.ucai.superwechat.ui.RobotsActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.UserProfileActivity { <init>(); }
 -keep class cn.ucai.superwechat.ui.SetServersActivity { <init>(); }
+-keep class cn.ucai.superwechat.ui.SettingsActivity { <init>(); }
 -keep class com.easemob.redpacketui.ui.activity.RPRedPacketActivity { <init>(); }
 -keep class com.easemob.redpacketui.ui.activity.RPDetailActivity { <init>(); }
 -keep class com.easemob.redpacketui.ui.activity.RPRecordActivity { <init>(); }

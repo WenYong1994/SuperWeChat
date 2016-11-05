@@ -480,6 +480,7 @@ org/apache/http/message/LineParser.class
 android/support/v4/widget/CursorAdapter.class
 android/support/v4/util/DebugUtils.class
 org/apache/http/conn/scheme/PlainSocketFactory.class
+cn/ucai/superwechat/ui/SettingsActivity.class
 cn/ucai/superwechat/ui/BlacklistActivity.class
 android/support/annotation/LayoutRes.class
 com/easemob/redpacketui/ui/activity/RPChangeActivity.class
@@ -555,6 +556,7 @@ android/support/annotation/IntDef.class
 org/apache/http/impl/cookie/RFC2965PortAttributeHandler.class
 org/apache/http/util/LangUtils.class
 com/huawei/android/microkernel/MKService.class
+com/hyphenate/chat/EMOptions.class
 com/baidu/location/LocationClient.class
 org/apache/http/io/SessionInputBuffer.class
 com/alipay/sdk/app/b.class
@@ -891,6 +893,7 @@ org/apache/http/impl/conn/DefaultClientConnection.class
 cn/ucai/superwechat/ui/VideoCallActivity$1.class
 org/apache/http/client/methods/HttpHead.class
 cn/ucai/superwechat/R$string.class
+cn/ucai/superwechat/utils/ExitAppUtile.class
 com/easemob/redpacketui/c/j.class
 org/apache/http/conn/ClientConnectionManager.class
 org/apache/http/impl/client/ClientParamsStack.class
@@ -1023,6 +1026,7 @@ com/hyphenate/chat/EMChatService$2.class
 cn/ucai/superwechat/ui/UserProfileActivity$3.class
 android/support/v4/media/session/PlaybackStateCompat$State.class
 com/alimama/mobile/a$a.class
+cn/ucai/superwechat/ui/SettingsActivity$1.class
 org/apache/http/impl/cookie/BasicDomainHandler.class
 android/support/v4/app/FragmentController.class
 org/apache/http/conn/routing/BasicRouteDirector.class

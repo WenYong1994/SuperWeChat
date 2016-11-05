@@ -2,5 +2,9 @@
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\em_logo_uidemo.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\em_logo_uidemo.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\default_avatar_1.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\default_avatar_1.png"
     }
 ]

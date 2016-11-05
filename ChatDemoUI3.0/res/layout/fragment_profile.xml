@@ -41,7 +41,7 @@
                         android:layout_height="60dip"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:src="@drawable/default_avatar"/>
+                        android:src="@drawable/default_avatar_1"/>
 
                     <TextView
                         android:id="@+id/tv_profile_nickname"

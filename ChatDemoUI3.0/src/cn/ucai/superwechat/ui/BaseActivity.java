@@ -20,6 +20,7 @@ import com.hyphenate.easeui.ui.EaseBaseActivity;
 import com.umeng.analytics.MobclickAgent;
 
 import butterknife.ButterKnife;
+import cn.ucai.superwechat.utils.ExitAppUtile;
 
 @SuppressLint("Registered")
 public class BaseActivity extends EaseBaseActivity {
@@ -28,6 +29,7 @@ public class BaseActivity extends EaseBaseActivity {
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
         ButterKnife.bind(this);
+        ExitAppUtile.getInstance().addActivity(this);
     }
 
     @Override
