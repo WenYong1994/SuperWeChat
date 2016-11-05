@@ -221,13 +221,14 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         });
     }
     private void updataLocaUser(User user) {
+        SuperWeChatHelper.getInstance().setUser(user);
         SuperWeChatHelper.getInstance().saveAppContact(user);
         EaseUserUtils.setCurrentAppUserNick(tvProfileNickname);
         this.user=user;
         dialog.dismiss();
-        CommonUtils.showShortToast("更新昵称成功");
     }
     private void updataLocaUserAvatar(User user) {
+        SuperWeChatHelper.getInstance().setUser(user);
         SuperWeChatHelper.getInstance().saveAppContact(user);
         this.user=user;
         dialog.dismiss();
@@ -297,6 +298,8 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                 L.e("修改头像"+user.toString());
                 updataLocaUserAvatar(user);
                 setPicToView(pidData);
+
+
 
             }
 
@@ -436,8 +439,6 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         }
         return null;
     }
-
-
     @Override
     protected void onDestroy() {
         if(dialog!=null){
