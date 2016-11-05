@@ -49,6 +49,7 @@ public class MFGT {
         startActivity(context, RegisterActivity.class);
     }
 
-
-
+    public static void setOverridePendingTransition(Activity activity){
+        activity.overridePendingTransition(R.anim.push_right_in,R.anim.push_right_out);
+    }
 }

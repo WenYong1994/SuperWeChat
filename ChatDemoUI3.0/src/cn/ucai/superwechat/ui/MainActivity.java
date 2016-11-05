@@ -223,7 +223,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         mAdapter.addFragment(new ConversationListFragment(),getString(R.string.app_name));
         mAdapter.addFragment(new ContactListFragment(),getString(R.string.contacts));
         mAdapter.addFragment(new DiscoverFragment(),getString(R.string.discover));
-        mAdapter.addFragment(new SettingsFragment(),getString(R.string.me));
+        mAdapter.addFragment(new ProfileFragment(),getString(R.string.me));
         mAdapter.notifyDataSetChanged();
         mMainAvtivityDMTableHost.setChecked(0);
     }

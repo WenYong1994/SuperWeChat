@@ -265,7 +265,6 @@ org/apache/http/protocol/RequestExpectContinue.class
 org/apache/http/impl/cookie/CookieSpecBase.class
 com/baidu/location/BDLocationListener.class
 org/apache/http/impl/auth/DigestScheme.class
-cn/ucai/superwechat/ui/SettingsFragment.class
 com/easemob/redpacketui/d/c.class
 android/support/v4/view/VelocityTrackerCompat.class
 cn/ucai/superwechat/adapter/MainTabAdpter.class
@@ -673,6 +672,7 @@ org/apache/http/entity/StringEntity.class
 android/support/v7/app/ActionBar$Tab.class
 org/apache/http/HttpInetConnection.class
 com/baidu/mapapi/SDKInitializer.class
+cn/ucai/superwechat/ui/ProfileFragment.class
 org/apache/http/impl/conn/tsccm/WaitingThread.class
 android/support/v7/app/AppCompatDelegateImplV14.class
 org/apache/commons/codec/binary/Base64.class
