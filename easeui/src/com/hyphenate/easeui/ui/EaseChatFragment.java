@@ -196,8 +196,11 @@ public class EaseChatFragment extends EaseBaseFragment implements EMMessageListe
             if (chatType == EaseConstant.CHATTYPE_GROUP) {
                 //group chat
                 EMGroup group = EMClient.getInstance().groupManager().getGroup(toChatUsername);
-                if (group != null)
+                if (group != null) {
                     titleBar.setTitle(group.getGroupName());
+                    //修改titlerBar的背景颜色
+                    titleBar.setBackgroundColor(getResources().getColor(R.color.black_deep));
+                }
                 // listen the event that user moved out group or group is dismissed
                 groupListener = new GroupListener();
                 EMClient.getInstance().groupManager().addGroupChangeListener(groupListener);

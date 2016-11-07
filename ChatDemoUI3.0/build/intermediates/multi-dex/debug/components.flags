@@ -266,6 +266,14 @@
     <init>();
 }
 
+-keep class cn.ucai.superwechat.ui.FriendProfileActivity {
+    <init>();
+}
+
+-keep class cn.ucai.superwechat.ui.SendAddFriendActivity {
+    <init>();
+}
+
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

@@ -365,6 +365,8 @@ public class VideoCallActivity extends CallActivity implements OnClickListener {
                             } else if (fError == CallError.ERROR_UNAVAILABLE) {
                                 callingState = CallingState.OFFLINE;
                                 callStateTextView.setText(s3);
+                                //添加对方不在线的提示
+                                setResult(FriendProfileActivity.NOT_ONLINE);
                             } else if (fError == CallError.ERROR_BUSY) {
                                 callingState = CallingState.BUSY;
                                 callStateTextView.setText(s4);
@@ -386,6 +388,7 @@ public class VideoCallActivity extends CallActivity implements OnClickListener {
                                     if (isInComingCall) {
                                         callingState = CallingState.UNANSWERED;
                                         callStateTextView.setText(s8);
+                                        setResult(RESULT_OK);
                                     } else {
                                         if (callingState != CallingState.NORMAL) {
                                             callingState = CallingState.CANCED;

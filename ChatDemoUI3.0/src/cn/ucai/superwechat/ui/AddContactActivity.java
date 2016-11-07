@@ -14,6 +14,7 @@
 package cn.ucai.superwechat.ui;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -32,6 +33,7 @@ import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.MFGT;
 
 import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.utils.EaseUserUtils;
@@ -46,6 +48,7 @@ public class AddContactActivity extends BaseActivity{
 	private ProgressDialog progressDialog;
 	private RelativeLayout noUserHint;
 	private TextView nickText;
+	User newUser;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -86,7 +89,8 @@ public class AddContactActivity extends BaseActivity{
 			// TODO you can search the user from your app server here.
 			
 			//show the userame and add button if user exist
-
+			progressDialog=new ProgressDialog(this);
+			progressDialog.setMessage("搜索中");
 			NetDao.findUserByUserName(this, toAddUsername, new OkHttpUtils.OnCompleteListener<Result>() {
 				@Override
 				public void onSuccess(Result result) {
@@ -99,16 +103,17 @@ public class AddContactActivity extends BaseActivity{
 						return;
 					}
 					String jsonString = result.getRetData().toString();
-					User newUser =  new Gson().fromJson(jsonString,User.class);
+					newUser =  new Gson().fromJson(jsonString,User.class);
 					if(newUser==null){
 						CommonUtils.showShortToast("查询失败");
 						return;
 					}
 					searchedUserLayout.setVisibility(View.VISIBLE);
 					ImageView imageView= (ImageView) findViewById(R.id.avatar);
-					nameText.setText(toAddUsername);
-					nickText.setText(newUser.getMUserNick());
+					nameText.setText("微信号："+toAddUsername);
+					nickText.setText("昵称："+newUser.getMUserNick());
 					EaseUserUtils.setAppUserAvatar(AddContactActivity.this,toAddUsername,imageView,newUser);
+					progressDialog.dismiss();
 				}
 
 				@Override
@@ -172,6 +177,9 @@ public class AddContactActivity extends BaseActivity{
 				}
 			}
 		}).start();*/
+		Intent intent = new Intent(this,FriendProfileActivity.class);
+		intent.putExtra("user",newUser);
+		MFGT.startActivity(this,intent);
 	}
 	
 	public void back(View v) {

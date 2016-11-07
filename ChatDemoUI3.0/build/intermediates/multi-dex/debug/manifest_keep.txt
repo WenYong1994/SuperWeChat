@@ -64,6 +64,8 @@
 -keep class com.hyphenate.chat.EMMonitorReceiver { <init>(); }
 -keep class com.baidu.location.f { <init>(); }
 -keep class cn.ucai.superwechat.ui.GuideActivity { <init>(); }
+-keep class cn.ucai.superwechat.ui.FriendProfileActivity { <init>(); }
+-keep class cn.ucai.superwechat.ui.SendAddFriendActivity { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

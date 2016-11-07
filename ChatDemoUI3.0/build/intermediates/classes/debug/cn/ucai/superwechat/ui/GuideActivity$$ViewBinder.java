@@ -8,7 +8,7 @@ import butterknife.ButterKnife.ViewBinder;
 public class GuideActivity$$ViewBinder<T extends cn.ucai.superwechat.ui.GuideActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131624045, "method 'onClick'");
+    view = finder.findRequiredView(source, 2131624055, "method 'onClick'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -17,7 +17,7 @@ public class GuideActivity$$ViewBinder<T extends cn.ucai.superwechat.ui.GuideAct
           target.onClick(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131624046, "method 'onClick'");
+    view = finder.findRequiredView(source, 2131624056, "method 'onClick'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(

@@ -68,4 +68,8 @@ public class MFGT {
     public static void AddContackActivity(FragmentActivity mainActivity) {
         startActivity(mainActivity, AddContactActivity.class);
     }
+
+
+
+
 }
