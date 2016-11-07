@@ -17,6 +17,7 @@ org/apache/http/client/methods/HttpDelete.class
 com/easemob/redpacketui/callback/c.class
 android/support/v7/app/AppCompatActivity.class
 cn/ucai/superwechat/R$drawable.class
+cn/ucai/superwechat/ui/MainActivity$9.class
 com/google/gson/annotations/SerializedName.class
 cn/ucai/superwechat/ui/MainActivity$1.class
 android/support/v4/os/ResultReceiver.class
@@ -414,6 +415,7 @@ com/hyphenate/chat/EMChatService$LocalBinder.class
 org/apache/http/FormattedHeader.class
 com/easemob/redpacketui/ui/activity/g.class
 com/huawei/android/pushagent/c/a/h.class
+cn/ucai/superwechat/dialog/TitleMenu/TitlePopup$OnItemOnClickListener.class
 org/apache/http/conn/params/ConnPerRoute.class
 org/apache/http/TokenIterator.class
 com/easemob/redpacketui/RedPacketConstant.class
@@ -525,6 +527,7 @@ com/baidu/platform/comapi/map/D.class
 android/support/v7/appcompat/R$style.class
 android/support/v4/media/VolumeProviderCompat.class
 org/apache/http/impl/cookie/BrowserCompatSpecFactory.class
+cn/ucai/superwechat/dialog/TitleMenu/TitlePopup.class
 org/apache/http/conn/MultihomePlainSocketFactory.class
 com/easemob/redpacketui/recyclerview/widget/AdapterHelper$Callback.class
 org/apache/http/client/ResponseHandler.class
@@ -777,6 +780,7 @@ com/easemob/redpacketui/ui/activity/RPWebViewActivity.class
 com/parse/ParseObject.class
 cn/ucai/superwechat/ui/PickContactNoCheckboxActivity.class
 android/support/v4/app/ActionBarDrawerToggle.class
+cn/ucai/superwechat/dialog/TitleMenu/ActionItem.class
 com/easemob/redpacketui/R$styleable.class
 android/support/v4/app/ActivityCompatHoneycomb.class
 android/support/v4/view/ViewCompatICSMr1.class

@@ -1,10 +1,26 @@
 [
     {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon_menu_money.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\icon_menu_money.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon_menu_group.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\icon_menu_group.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon_menu_sao.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\icon_menu_sao.png"
+    },
+    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\em_logo_uidemo.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\em_logo_uidemo.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\default_avatar_1.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\default_avatar_1.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon_menu_addfriend.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-ldpi\\icon_menu_addfriend.png"
     }
 ]

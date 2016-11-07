@@ -31,6 +31,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -60,8 +61,11 @@ import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.adapter.MainTabAdpter;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
+import cn.ucai.superwechat.dialog.TitleMenu.ActionItem;
+import cn.ucai.superwechat.dialog.TitleMenu.TitlePopup;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
+import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
 
@@ -89,6 +93,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     LinearLayout mainLayout;
 
     MainTabAdpter mAdapter;
+
+    TitlePopup titlePopup;
 
 
 
@@ -226,6 +232,20 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         mAdapter.addFragment(new ProfileFragment(),getString(R.string.me));
         mAdapter.notifyDataSetChanged();
         mMainAvtivityDMTableHost.setChecked(0);
+
+
+
+        titlePopup=new TitlePopup(this, ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+        titlePopup.addAction(new ActionItem(this,"发起群聊",R.drawable.icon_menu_group));
+        titlePopup.addAction(new ActionItem(this,"添加好友",R.drawable.icon_menu_addfriend));
+        titlePopup.addAction(new ActionItem(this,"扫一扫",R.drawable.icon_menu_sao));
+        titlePopup.addAction(new ActionItem(this,"微信钱包",R.drawable.icon_menu_money));
+        titlePopup.setItemOnClickListener(new TitlePopup.OnItemOnClickListener() {
+            @Override
+            public void onItemClick(ActionItem item, int position) {
+                CommonUtils.showShortToast(position+"");
+            }
+        });
     }
 
 
@@ -328,22 +348,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     }
 
     @OnClick(R.id.m_MainAvtivity_Title_Reight_Add)
-    public void onClick() {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void onPopuShow() {
+        titlePopup.show(findViewById(R.id.m_Show_popu));
 
     }
 
