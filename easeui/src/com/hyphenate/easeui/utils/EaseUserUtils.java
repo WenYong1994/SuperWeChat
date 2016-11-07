@@ -108,10 +108,7 @@ public class EaseUserUtils {
             } catch (Exception e) {
                 //use default avatar
                 Log.e("SuperWeChat",user.getAvatar());
-//                Glide.with(context).load(user.getAvatar()).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.default_avatar_1).into(imageView);
-                //下面这一句取消缓存
-                Glide.clear(imageView);
-                Glide.with(context).load(user.getAvatar()).placeholder(R.drawable.default_avatar_1).into(imageView);
+                Glide.with(context).load(user.getAvatar()).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.default_avatar_1).into(imageView);
                 Log.e("SuperWeChat",user.getAvatar());
             }
         }else{
@@ -156,4 +153,5 @@ public class EaseUserUtils {
     private static void setAppUserName(String suffix,String userName,TextView tvProfileUsername) {
         tvProfileUsername.setText(suffix+userName);
     }
+
 }

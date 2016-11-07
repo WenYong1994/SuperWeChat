@@ -21,6 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.toolbox.NetworkImageView;
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.hyphenate.EMValueCallBack;
@@ -50,8 +51,6 @@ import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
-import cn.ucai.superwechat.utils.ResultUtils;
-import cn.ucai.superwechat.video.util.Utils;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener {
 
@@ -63,6 +62,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     TextView tvProfileNickname;
     @Bind(R.id.tv_profile_weixinhao)
     TextView tvProfileWeixinhao;
+
     private ProgressDialog dialog;
     private RelativeLayout rlNickName;
 
@@ -84,12 +84,16 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     }
 
     private void initView() {
+
     }
 
     private void initListener() {
         EaseUserUtils.setCurrentAppUserAvatar(this,ivProfileAvatar);
         EaseUserUtils.setCurrentAppUserNick(tvProfileNickname);
         EaseUserUtils.setCurrentAppUserName(tvProfileWeixinhao);
+
+
+
     }
 
     public void asyncFetchUserInfo(String username) {
@@ -228,6 +232,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         dialog.dismiss();
     }
     private void updataLocaUserAvatar(User user) {
+        //将数据保存存到本地磁盘和数据库
         SuperWeChatHelper.getInstance().setUser(user);
         SuperWeChatHelper.getInstance().saveAppContact(user);
         this.user=user;
@@ -295,8 +300,9 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                     CommonUtils.showShortToast("上传头像失败");
                     return;
                 }
-                L.e("修改头像"+user.toString());
+                //将数据保存到本地数据库和磁盘
                 updataLocaUserAvatar(user);
+
                 setPicToView(pidData);
 
 
@@ -335,7 +341,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
             Bitmap photo = extras.getParcelable("data");
             Drawable drawable = new BitmapDrawable(getResources(), photo);
             ivProfileAvatar.setImageDrawable(drawable);
-            uploadUserAvatar(Bitmap2Bytes(photo));
+            //uploadUserAvatar(Bitmap2Bytes(photo));
             L.e("setPicToView");
             dialog.dismiss();
         }
