@@ -89,4 +89,9 @@ public class SendAddFriendActivity extends AppCompatActivity {
         super.onBackPressed();
         MFGT.finish(this);
     }
+
+    @OnClick(R.id.m_Send_Friend_Btn)
+    public void onBtnBack() {
+        MFGT.finish(this);
+    }
 }

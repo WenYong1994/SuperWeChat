@@ -1,5 +1,6 @@
 package cn.ucai.superwechat.ui;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -66,8 +67,7 @@ public class FriendProfileActivity extends BaseActivity {
         EaseUserUtils.setAppUserNick(mUser.getMUserNick(), mFrientProfileNick);
         EaseUserUtils.setAppUserAvatar(this, mUser.getMUserName(), mFrientProfileIv, mUser);
         EaseUserUtils.setAppUserNameWithNo(mUser.getMUserName(),mFrientProfileName);
-        if((!SuperWeChatHelper.getInstance().getContactList().containsKey(mUser.getMUserName()))
-                ||mUser.getMUserName().equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
+        if(!SuperWeChatHelper.getInstance().getContactList().containsKey(mUser.getMUserName())){
             //代表不是联系人也不是自己
             mFrientProfileAdd.setVisibility(View.VISIBLE);
         }else {
@@ -84,6 +84,10 @@ public class FriendProfileActivity extends BaseActivity {
                 MFGT.finish(this);
                 break;
             case R.id.m_Frient_Profile_Add_Btn:
+                if(mUser.getMUserName().equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
+                    CommonUtils.showShortToast("不能添加自己为好友");
+                    return;
+                }
                 Intent intent = new Intent(this,SendAddFriendActivity.class);
                 intent.putExtra("senduser",mUser);
                 MFGT.startActivity(this,intent);
@@ -94,12 +98,11 @@ public class FriendProfileActivity extends BaseActivity {
                 startActivity(new Intent(this, ChatActivity.class).putExtra("userId", mUser.getMUserName()));
                 break;
             case R.id.m_Frient_Profile_MP4e_Btn:
-                if (!EMClient.getInstance().isConnected())
-                    Toast.makeText(FriendProfileActivity.this, R.string.not_connect_to_server, Toast.LENGTH_SHORT).show();
-                else {
-                    Intent intent1 = new Intent(this,VideoCallActivity.class);
-                    startActivityForResult(intent1,IS_ONLINE);
-                }
+
+                Intent intent1 = new Intent(this,VideoCallActivity.class);
+                intent1.putExtra("isComingCall",false);
+                intent1.putExtra("username",mUser.getMUserName());
+                startActivityForResult(intent1,IS_ONLINE);
                 break;
         }
     }

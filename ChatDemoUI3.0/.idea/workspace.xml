@@ -65,197 +65,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238fb69c-c3e5-430e-8fca-27527efb7927" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_friend_profile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_send_add_friend.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_EaseUI_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_redpacketlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$integer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$mipmap.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$raw.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/ChatRoomAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/ChatRoomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/GroupAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/GroupAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/AddContactActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/AddContactActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/AddContactActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/AddContactActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/BlacklistActivity$BlacklistAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/BlacklistActivity$BlacklistAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/BlacklistActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/BlacklistActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity$GridAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity$GridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ChatRoomDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContactListFragment$HeaderItemClickListener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContactListFragment$HeaderItemClickListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContactListFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContactListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContextMenuActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ContextMenuActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ConversationListFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ConversationListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/DiagnoseActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/DiagnoseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/EditActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/EditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ExitGroupDialog.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ExitGroupDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupBlacklistActivity$BlacklistAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupBlacklistActivity$BlacklistAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupBlacklistActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupBlacklistActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$10$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$10$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$6$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$GridAdapter$3$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$GridAdapter$3$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$GridAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity$GridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupDetailsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupPickContactsActivity$PickContactAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupPickContactsActivity$PickContactAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupPickContactsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupPickContactsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSearchMessageActivity$SearchedMessageAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSearchMessageActivity$SearchedMessageAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSearchMessageActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSearchMessageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSimpleDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupSimpleDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GroupsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity$$ViewBinder.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity$$ViewBinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ImageGridFragment$ImageAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ImageGridFragment$ImageAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ImageGridFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/ImageGridFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/LoginActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/LoginActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/NewFriendsMsgActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/NewFriendsMsgActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/NewGroupActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/NewGroupActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/OfflinePushNickActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/OfflinePushNickActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PickAtUserActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PickAtUserActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PickContactNoCheckboxActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PickContactNoCheckboxActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicChatRoomsActivity$ChatRoomAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicChatRoomsActivity$ChatRoomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicChatRoomsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicChatRoomsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsActivity$GroupsAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsActivity$GroupsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsSeachActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/PublicGroupsSeachActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RecorderVideoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RecorderVideoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RegisterActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RegisterActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RobotsActivity$RobotAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RobotsActivity$RobotAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RobotsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/RobotsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/SetServersActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/SetServersActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/SplashActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/UserProfileActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/UserProfileActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1$10.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VideoCallActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity$1$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity$1$8$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity$1$8$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/VoiceCallActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/widget/ChatRowVoiceCall.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/widget/ChatRowVoiceCall.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/widget/ContactItemView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/widget/ContactItemView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/easemob/redpacketui/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/easemob/redpacketui/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/easemob/redpacketui/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/easemob/redpacketui/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/hyphenate/easeui/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/hyphenate/easeui/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/hyphenate/easeui/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/hyphenate/easeui/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/componentClasses.jar" afterPath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/componentClasses.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" afterPath="$PROJECT_DIR$/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/ChatDemoUI3.0-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/BaiduLBS_Android.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/HwPush_SDK_V2705_nomap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/MiPush_SDK_Client_2_2_19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/glide-3.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/google-play-services.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/hyphenatechat_3.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/redpacketlibrary/build/intermediates/exploded-aar/ChatDemoUI3.0/EaseUI/unspecified/jars/libs/org.apache.http.legacy.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$10.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$11.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$2.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$3.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$4.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$5$1.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$5.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$6$1.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$6.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7$1.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7$2.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$8.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$9.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$1.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$2.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$MyItemClickListener.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment$MyItemClickListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/ui/EaseChatFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/utils/EaseUserUtils.class" afterPath="$PROJECT_DIR$/redpacketlibrary/build/tmp/expandedArchives/classes.jar_e1lv8xvchix6sshsmgxy70cg0/com/hyphenate/easeui/utils/EaseUserUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/BaiduLBS_Android.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/HwPush_SDK_V2705_nomap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/MiPush_SDK_Client_2_2_19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/glide-3.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/google-play-services.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/hyphenatechat_3.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/bundles/release/libs/org.apache.http.legacy.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$10.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$11.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$2.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$3.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$4.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$5$1.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$5.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$6$1.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$6.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7$1.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7$2.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$8.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$9.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$1.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$2.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$GroupListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$MyItemClickListener.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment$MyItemClickListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/ui/EaseChatFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/utils/EaseUserUtils.class" afterPath="$PROJECT_DIR$/../easeui/build/intermediates/classes/release/com/hyphenate/easeui/utils/EaseUserUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" afterPath="$PROJECT_DIR$/../easeui/build/outputs/aar/EaseUI-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/cn/ucai/superwechat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/cn/ucai/superwechat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/redpacketui/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/redpacketui/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/hyphenate/easeui/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/hyphenate/easeui/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity$$ViewBinder.java" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/cn/ucai/superwechat/ui/GuideActivity$$ViewBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/components.flags" afterPath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/components.flags" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/maindexlist.txt" afterPath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/maindexlist.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/manifest_keep.txt" afterPath="$PROJECT_DIR$/build/intermediates/multi-dex/debug/manifest_keep.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/AddContactActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/AddContactActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/utils/MFGT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/ui/EaseChatFragment.java" afterPath="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/ui/EaseChatFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/utils/EaseUserUtils.java" afterPath="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/utils/EaseUserUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java" afterPath="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java" />
     </list>
     <ignored path="ChatDemoUI3.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -326,28 +150,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FriendProfileActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FriendProfileActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2972441">
-              <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+            <state vertical-scroll-proportion="-3.338983">
+              <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoCallActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5144766">
+              <caret line="190" column="28" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
               <folding>
-                <element signature="e#3653#3683#0" expanded="true" />
+                <element signature="e#7346#7408#0" expanded="true" />
+                <element signature="e#14774#14842#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoCallActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java">
+      <file leaf-file-name="SendAddFriendActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3050847">
-              <caret line="390" column="61" selection-start-line="390" selection-start-column="61" selection-end-line="390" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
-                <element signature="e#14979#15043#0" expanded="true" />
-                <element signature="e#15330#15372#0" expanded="true" />
-                <element signature="e#15414#15469#0" expanded="true" />
-                <element signature="e#15602#15655#0" expanded="true" />
+                <element signature="e#2548#2608#0" expanded="true" />
+                <element signature="e#3118#3119#0" expanded="true" />
+                <element signature="e#3151#3152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2953,8 +2787,8 @@
         <option value="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/utils/EaseUserUtils.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_send_add_friend.xml" />
-        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java" />
         <option value="$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/ui/EaseChatFragment.java" />
+        <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java" />
         <option value="$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java" />
       </list>
@@ -3090,7 +2924,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="containsKey&#9;ACTION&#9;null&#10;userprofile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/res/layout/em_activity_user_profile.xml&#10;NetDao&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/data/NetDao.java&#10;AddC&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;Friend&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.NewFriendsMsgActivity&#10;EaseTitleBa&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/easeui/src/com/hyphenate/easeui/widget/EaseTitleBar.java&#10;TitleB&#9;PSI&#9;JAVA://com.hyphenate.easeui.widget.EaseTitleBar&#10;Contactl&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Setting&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsActivity.java&#10;ContactLi&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;Main&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/MainActivity.java&#10;Profile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/ProfileFragment.java&#10;Sett&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsActivity.java&#10;Glid&#9;PSI&#9;JAVA://com.bumptech.glide.Glide&#10;User&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/easeui/src/com/hyphenate/easeui/bean/User.java&#10;Netdao&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/data/NetDao.java&#10;File&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/parse/UserProfileManager.java&#10;uploadUser&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity#uploadUserAvatar&#10;UserP&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity&#10;UserProfile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;commti&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/res/layout-hdpi/common_title.xml&#10;Base&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/BaseActivity.java&#10;Set&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsFragment.java&#10;login&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/LoginActivity.java&#10;logout&#9;PSI&#9;JAVA://com.parse.LogOutCallback&#10;getAppC&#9;PSI&#9;JAVA://cn.ucai.superwechat.SuperWeChatHelper#getAppContactList&#10;EaseUserProfileProvider&#9;PSI&#9;JAVA://com.hyphenate.easeui.controller.EaseUI.EaseUserProfileProvider&#10;splash&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SplashActivity.java&#10;Spla&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SplashActivity.java&#10;user&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity" />
+    <property name="SearchEverywhereHistoryKey" value="VideoCallActi&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.VideoCallActivity&#10;Is_not_yet_connected_to_the_server&#9;PSI&#9;JAVA://com.easemob.redpacketui.R.string#Is_not_yet_connected_to_the_server&#10;containsKey&#9;ACTION&#9;null&#10;userprofile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/res/layout/em_activity_user_profile.xml&#10;NetDao&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/data/NetDao.java&#10;AddC&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/AddContactActivity.java&#10;Friend&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.NewFriendsMsgActivity&#10;EaseTitleBa&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/easeui/src/com/hyphenate/easeui/widget/EaseTitleBar.java&#10;TitleB&#9;PSI&#9;JAVA://com.hyphenate.easeui.widget.EaseTitleBar&#10;Contactl&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/ContactListFragment.java&#10;Setting&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsActivity.java&#10;ContactLi&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.ContactListFragment&#10;Main&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/MainActivity.java&#10;Profile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/ProfileFragment.java&#10;Sett&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsActivity.java&#10;Glid&#9;PSI&#9;JAVA://com.bumptech.glide.Glide&#10;User&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/easeui/src/com/hyphenate/easeui/bean/User.java&#10;Netdao&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/data/NetDao.java&#10;File&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/parse/UserProfileManager.java&#10;uploadUser&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity#uploadUserAvatar&#10;UserP&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity&#10;UserProfile&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/UserProfileActivity.java&#10;commti&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/res/layout-hdpi/common_title.xml&#10;Base&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/BaseActivity.java&#10;Set&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SettingsFragment.java&#10;login&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/LoginActivity.java&#10;logout&#9;PSI&#9;JAVA://com.parse.LogOutCallback&#10;getAppC&#9;PSI&#9;JAVA://cn.ucai.superwechat.SuperWeChatHelper#getAppContactList&#10;EaseUserProfileProvider&#9;PSI&#9;JAVA://com.hyphenate.easeui.controller.EaseUI.EaseUserProfileProvider&#10;splash&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SplashActivity.java&#10;Spla&#9;FILE&#9;file://E:/androidDevelopment/SuperWechat/ChatDemoUI3.0/src/cn/ucai/superwechat/ui/SplashActivity.java&#10;user&#9;PSI&#9;JAVA://cn.ucai.superwechat.ui.UserProfileActivity" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/res/drawable-ldpi" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="103" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -3429,7 +3263,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58191127" sideWeight="0.5060514" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347957" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3504,46 +3338,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../easeui/res/layout/ease_widget_title_bar.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/widget/EaseTitleBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/res/layout/ease_fragment_contact_list.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5492958">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#501#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../easeui/src/com/hyphenate/easeui/ui/EaseContactListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../easeui/libs/hyphenatechat_3.1.5.jar!/com/hyphenate/util/NetUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34971645">
@@ -3714,17 +3508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_send_add_friend.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9166667">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/em_strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35222673">
@@ -3771,26 +3554,6 @@
             <element signature="e#20584#20585#0" expanded="true" />
             <element signature="e#21622#22030#0" expanded="true" />
             <element signature="e#22029#22030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#1316#1371#0" expanded="true" />
-            <element signature="e#1522#2817#0" expanded="true" />
-            <element signature="e#1888#2310#0" expanded="true" />
-            <element signature="e#2043#2093#0" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
-            <element signature="e#2393#2773#0" expanded="true" />
-            <element signature="e#2548#2608#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2904#2905#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3957,6 +3720,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_friend_profile.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.85">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/view/ContextThemeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1355934">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_send_add_friend.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/SendAddFriendActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#2548#2608#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#3151#3152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/em_activity_voice_call.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3549107">
+          <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/easemob/redpacketui/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26128265">
+          <caret line="1077" column="32" selection-start-line="1077" selection-start-column="32" selection-end-line="1077" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/cn/ucai/superwechat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35208333">
+          <caret line="3920" column="32" selection-start-line="3920" selection-start-column="32" selection-end-line="3920" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redpacketlibrary/build/generated/source/r/debug/com/easemob/redpacketui/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35208333">
+          <caret line="1484" column="26" selection-start-line="1484" selection-start-column="26" selection-end-line="1484" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/AddContactActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3974,52 +3814,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_friend_profile.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.85">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values-zh/em_strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3">
-          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.35355648">
+          <caret line="248" column="18" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/view/ContextThemeWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1355934">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state vertical-scroll-proportion="-3.338983">
+          <caret line="101" column="56" selection-start-line="101" selection-start-column="56" selection-end-line="101" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/VideoCallActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3050847">
-          <caret line="390" column="61" selection-start-line="390" selection-start-column="61" selection-end-line="390" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.5144766">
+          <caret line="190" column="28" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
           <folding>
-            <element signature="e#14979#15043#0" expanded="true" />
-            <element signature="e#15330#15372#0" expanded="true" />
-            <element signature="e#15414#15469#0" expanded="true" />
-            <element signature="e#15602#15655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/ucai/superwechat/ui/FriendProfileActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972441">
-          <caret line="88" column="48" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
-          <folding>
-            <element signature="e#3653#3683#0" expanded="true" />
+            <element signature="e#7346#7408#0" expanded="true" />
+            <element signature="e#14774#14842#0" expanded="true" />
           </folding>
         </state>
       </provider>
