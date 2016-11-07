@@ -76,6 +76,10 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_default_avatar.png"
     },
     {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_avatar_1.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\default_avatar_1.png"
+    },
+    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_send_btn_pressed.9.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-xhdpi\\ease_chat_send_btn_pressed.9.png"
     },

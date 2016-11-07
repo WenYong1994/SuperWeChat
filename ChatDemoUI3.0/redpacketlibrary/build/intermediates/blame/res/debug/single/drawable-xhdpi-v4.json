@@ -68,6 +68,10 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_avatar_1.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\default_avatar_1.png"
+    },
+    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_image_normal.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_image_normal.png"
     },

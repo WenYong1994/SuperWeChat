@@ -19,13 +19,22 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.hyphenate.chat.EMClient;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.data.NetDao;
+import cn.ucai.superwechat.data.OkHttpUtils;
+import cn.ucai.superwechat.utils.CommonUtils;
+
+import com.hyphenate.easeui.bean.User;
+import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.hyphenate.easeui.widget.EaseAlertDialog;
 
 public class AddContactActivity extends BaseActivity{
@@ -35,6 +44,8 @@ public class AddContactActivity extends BaseActivity{
 	private TextView nameText;
 	private String toAddUsername;
 	private ProgressDialog progressDialog;
+	private RelativeLayout noUserHint;
+	private TextView nickText;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +61,8 @@ public class AddContactActivity extends BaseActivity{
 		searchedUserLayout = (RelativeLayout) findViewById(R.id.ll_user);
 		nameText = (TextView) findViewById(R.id.name);
 		searchBtn = (Button) findViewById(R.id.search);
+		noUserHint= (RelativeLayout) findViewById(R.id.no_User_Hint);
+		nickText= (TextView) findViewById(R.id.nick);
 	}
 	
 	
@@ -60,7 +73,9 @@ public class AddContactActivity extends BaseActivity{
 	public void searchContact(View v) {
 		final String name = editText.getText().toString();
 		String saveText = searchBtn.getText().toString();
-		
+		noUserHint.setVisibility(View.GONE);
+		searchedUserLayout.setVisibility(View.GONE);
+
 		if (getString(R.string.button_search).equals(saveText)) {
 			toAddUsername = name;
 			if(TextUtils.isEmpty(name)) {
@@ -71,10 +86,39 @@ public class AddContactActivity extends BaseActivity{
 			// TODO you can search the user from your app server here.
 			
 			//show the userame and add button if user exist
-			searchedUserLayout.setVisibility(View.VISIBLE);
-			nameText.setText(toAddUsername);
-			
-		} 
+
+			NetDao.findUserByUserName(this, toAddUsername, new OkHttpUtils.OnCompleteListener<Result>() {
+				@Override
+				public void onSuccess(Result result) {
+					if(!result.isRetMsg()){
+						noUserHint.setVisibility(View.VISIBLE);
+						return;
+					}
+					if(result==null||result.getRetData()==null||!result.isRetMsg()){
+						CommonUtils.showShortToast("查询失败");
+						return;
+					}
+					String jsonString = result.getRetData().toString();
+					User newUser =  new Gson().fromJson(jsonString,User.class);
+					if(newUser==null){
+						CommonUtils.showShortToast("查询失败");
+						return;
+					}
+					searchedUserLayout.setVisibility(View.VISIBLE);
+					ImageView imageView= (ImageView) findViewById(R.id.avatar);
+					nameText.setText(toAddUsername);
+					nickText.setText(newUser.getMUserNick());
+					EaseUserUtils.setAppUserAvatar(AddContactActivity.this,toAddUsername,imageView,newUser);
+				}
+
+				@Override
+				public void onError(String error) {
+					CommonUtils.showShortToast("查询失败");
+				}
+			});
+
+
+		}
 	}	
 	
 	/**
@@ -82,7 +126,7 @@ public class AddContactActivity extends BaseActivity{
 	 * @param view
 	 */
 	public void addContact(View view){
-		if(EMClient.getInstance().getCurrentUser().equals(nameText.getText().toString())){
+		/*if(EMClient.getInstance().getCurrentUser().equals(nameText.getText().toString())){
 			new EaseAlertDialog(this, R.string.not_add_myself).show();
 			return;
 		}
@@ -127,7 +171,7 @@ public class AddContactActivity extends BaseActivity{
 					});
 				}
 			}
-		}).start();
+		}).start();*/
 	}
 	
 	public void back(View v) {

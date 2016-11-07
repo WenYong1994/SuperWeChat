@@ -60,12 +60,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\layout\\rp_received_record_list_header.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_chat_message_list.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_emojicon_menu.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_message_list.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\layout\\ease_chat_message_list.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",

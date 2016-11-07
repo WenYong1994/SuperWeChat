@@ -40,12 +40,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_top_in2.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_top_out2.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_top_out2.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\voice_from_icon.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\voice_from_icon.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_top_out2.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\anim\\push_top_out2.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_left.xml",

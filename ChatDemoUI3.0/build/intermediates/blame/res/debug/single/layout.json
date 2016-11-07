@@ -276,12 +276,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_search_bar_with_padding.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_add_contact.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_activity_add_contact.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_conversation_settings.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_fragment_conversation_settings.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_add_contact.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_activity_add_contact.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
@@ -664,12 +664,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_row_add_group.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\activity_guide.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\em_activity_public_groups.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\layout\\activity_guide.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_change.xml",

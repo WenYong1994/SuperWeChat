@@ -103,4 +103,14 @@ public class NetDao {
                 .targetClass(String.class)
                 .execute(listener);
     }
+
+
+    public static void findUserByUserName(Context context,String userName,OkHttpUtils.OnCompleteListener<Result> listener){
+        OkHttpUtils<Result> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_FIND_USER)
+                .addParam(I.User.USER_NAME, userName)
+                .targetClass(Result.class)
+                .execute(listener);
+    }
+
 }

@@ -47,6 +47,7 @@ import com.hyphenate.chat.EMConversation.EMConversationType;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.EMLog;
+import com.hyphenate.util.NetUtils;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
 
@@ -66,6 +67,7 @@ import cn.ucai.superwechat.dialog.TitleMenu.TitlePopup;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
 
@@ -243,7 +245,18 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         titlePopup.setItemOnClickListener(new TitlePopup.OnItemOnClickListener() {
             @Override
             public void onItemClick(ActionItem item, int position) {
-                CommonUtils.showShortToast(position+"");
+                switch (position){
+                    case 0:
+                        break;
+                    case 1:
+                        MFGT.AddContackActivity(MainActivity.this);
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                }
+
             }
         });
     }

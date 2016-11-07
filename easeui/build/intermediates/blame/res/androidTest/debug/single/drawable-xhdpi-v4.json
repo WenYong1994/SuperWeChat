@@ -100,6 +100,10 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ease_chat_press_speak_btn_normal.9.png"
     },
     {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_avatar_1.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_avatar_1.png"
+    },
+    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ease_default_avatar.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ease_default_avatar.png"
     },
