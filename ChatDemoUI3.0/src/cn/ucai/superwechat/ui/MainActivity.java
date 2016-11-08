@@ -81,10 +81,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     private TextView unreadAddressLable;
 
     private Button[] mTabs;
-    private ContactListFragment contactListFragment;
+
     private Fragment[] fragments;*/
+    private ContactListFragment contactListFragment;
 //	private int index;
-//	private int currentTabIndex;
+	private int currentTabIndex;
     // user logged into another device
     public boolean isConflict = false;
     @Bind(R.id.m_MainAvtivity_MFViewPager)
@@ -228,8 +229,9 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         mMainAvtivityMFViewPager.setAdapter(mAdapter);
         mMainAvtivityMFViewPager.setOffscreenPageLimit(4);
         mAdapter.clear();
+        contactListFragment=new ContactListFragment();
         mAdapter.addFragment(new ConversationListFragment(),getString(R.string.app_name));
-        mAdapter.addFragment(new ContactListFragment(),getString(R.string.contacts));
+        mAdapter.addFragment(contactListFragment,getString(R.string.contacts));
         mAdapter.addFragment(new DiscoverFragment(),getString(R.string.discover));
         mAdapter.addFragment(new ProfileFragment(),getString(R.string.me));
         mAdapter.notifyDataSetChanged();
@@ -337,16 +339,17 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                     if (conversationListFragment != null) {
                         conversationListFragment.refresh();
                     }
-                } else if (currentTabIndex == 1) {
+                } else */
+                if (currentTabIndex == 1) {
                     if(contactListFragment != null) {
                         contactListFragment.refresh();
                     }
-                }*/
+                }
                 String action = intent.getAction();
                 if (action.equals(Constant.ACTION_GROUP_CHANAGED)) {
-                    if (EaseCommonUtils.getTopActivity(MainActivity.this).equals(GroupsActivity.class.getName())) {
-                        GroupsActivity.instance.onResume();
-                    }
+                        if (EaseCommonUtils.getTopActivity(MainActivity.this).equals(GroupsActivity.class.getName())) {
+                            GroupsActivity.instance.onResume();
+                        }
                 }
                 //red packet code : 处理红包回执透传消息
                 if (action.equals(RedPacketConstant.REFRESH_GROUP_RED_PACKET_ACTION)) {
@@ -369,6 +372,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     @Override
     public void onCheckedChange(int checkedPosition, boolean byUser) {
         if(byUser){
+            currentTabIndex=checkedPosition;
             mMainAvtivityMFViewPager.setCurrentItem(checkedPosition,true);
         }
     }
@@ -381,6 +385,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     @Override
     public void onPageSelected(int position) {
         mMainAvtivityDMTableHost.setChecked(position);
+        currentTabIndex=position;
     }
 
     @Override
@@ -463,11 +468,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         runOnUiThread(new Runnable() {
             public void run() {
                 int count = getUnreadAddressCountTotal();
-				/*if (count > 0) {
-					unreadAddressLable.setVisibility(View.VISIBLE);
+				if (count > 0) {
+					mMainAvtivityDMTableHost.setHasNew(1,true);
 				} else {
-					unreadAddressLable.setVisibility(View.INVISIBLE);
-				}*/
+                    mMainAvtivityDMTableHost.setHasNew(1,false);
+				}
             }
         });
 

@@ -26,6 +26,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 
 public class FriendProfileActivity extends BaseActivity {
@@ -98,7 +99,7 @@ public class FriendProfileActivity extends BaseActivity {
                 startActivity(new Intent(this, ChatActivity.class).putExtra("userId", mUser.getMUserName()));
                 break;
             case R.id.m_Frient_Profile_MP4e_Btn:
-
+                EMClient.getInstance().isConnected();
                 Intent intent1 = new Intent(this,VideoCallActivity.class);
                 intent1.putExtra("isComingCall",false);
                 intent1.putExtra("username",mUser.getMUserName());
