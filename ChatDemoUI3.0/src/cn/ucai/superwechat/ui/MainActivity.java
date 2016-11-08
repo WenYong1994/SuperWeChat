@@ -401,8 +401,6 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
             //这里添加好友
             L.e(TAG+":onContactAdded,"+username+"");
 
-
-
         }
 
         @Override

@@ -123,7 +123,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 			    holder.agree.setVisibility(View.VISIBLE);
                 holder.agree.setEnabled(true);
                 holder.agree.setText(str2);
-				holder.agree.setBackgroundResource(android.R.drawable.btn_default);
+				holder.agree.setBackgroundResource(android.R.color.holo_green_dark);
 
 			    
 				holder.status.setVisibility(View.GONE);

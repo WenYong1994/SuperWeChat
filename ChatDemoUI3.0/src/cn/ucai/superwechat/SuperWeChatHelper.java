@@ -644,6 +644,7 @@ public class SuperWeChatHelper {
 
         @Override
         public void onContactAdded(String username) {
+            L.e(TAG+"onContactAdded");
             // save contact
             Map<String, EaseUser> localUsers = getContactList();
             Map<String, EaseUser> toAddUsers = new HashMap<String, EaseUser>();
@@ -654,27 +655,29 @@ public class SuperWeChatHelper {
             }
             toAddUsers.put(username, user);
             localUsers.putAll(toAddUsers);
-            if(!localUsers.containsKey(username)){
+            if(true){
                 NetDao.addContact(appContext, EMClient.getInstance().getCurrentUser(), username, new OkHttpUtils.OnCompleteListener<Result>() {
                     @Override
                     public void onSuccess(Result result) {
-                        if(result==null||result.getRetData()==null){
+                        L.e(TAG+result.toString());
+                        if(result==null||result.getRetData()==null||!result.isRetMsg()){
                             return;
                         }
+                        L.e(TAG+result.toString());
                         String jsonStr = result.getRetData().toString();
                         Gson gson = new Gson();
                         User newUser =gson.fromJson(jsonStr,User.class);
                         if(newUser==null){
                             return;
                         }
+                        L.e(TAG+newUser);
                         saveAppContact(newUser);
                         broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
-
                     }
 
                     @Override
                     public void onError(String error) {
-
+                        L.e(TAG+"添加好友失败");
                     }
                 });
 
