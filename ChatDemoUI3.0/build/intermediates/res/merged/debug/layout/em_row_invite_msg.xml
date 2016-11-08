@@ -6,6 +6,7 @@
     android:orientation="vertical" >
 
     <RelativeLayout
+        android:id="@+id/em_row_invite_msg_Rela"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_row_weixin"
         android:gravity="center_vertical" >
@@ -80,10 +81,13 @@
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
             android:text="@string/agree"
+            android:background="@color/green"
             android:textSize="13sp"
-            android:visibility="gone" />
+            android:layout_alignParentRight="true"
+            />
         
         <Button
+            android:visibility="gone"
             android:id="@+id/user_state"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,6 +96,7 @@
             android:layout_marginRight="10dp"
             android:paddingLeft="7dp"
             android:paddingRight="7dp"
+            android:background="@color/green"
             android:text="@string/refuse"
             android:textSize="13sp" />
     </RelativeLayout>

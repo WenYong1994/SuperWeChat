@@ -59,7 +59,7 @@ public class InviteMessgeDao {
 	
 	/**
 	 * get messges
-	 * @return
+	 * @returnF
 	 */
 	public List<InviteMessage> getMessagesList(){
 		return SuperWeChatDBManager.getInstance().getMessagesList();

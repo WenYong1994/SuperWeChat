@@ -9,6 +9,7 @@ import java.util.UUID;
 
 import com.easemob.redpacketui.RedPacketConstant;
 import com.easemob.redpacketui.utils.RedPacketUtil;
+import com.google.gson.Gson;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.EMConnectionListener;
 import com.hyphenate.EMContactListener;
@@ -26,6 +27,9 @@ import com.hyphenate.chat.EMMessage.Type;
 import com.hyphenate.chat.EMOptions;
 import com.hyphenate.chat.EMTextMessageBody;
 
+import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.data.NetDao;
+import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
@@ -53,6 +57,7 @@ import com.hyphenate.easeui.model.EaseAtMessageHelper;
 import com.hyphenate.easeui.model.EaseNotifier;
 import com.hyphenate.easeui.model.EaseNotifier.EaseNotificationInfoProvider;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
+import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
 
@@ -63,8 +68,38 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class SuperWeChatHelper {
+
+    public void setAppUserInfoByUserNameOnLine(final Context context, final String name, final TextView tv, final ImageView iv) {
+        NetDao.findUserByUserName(context, name, new OkHttpUtils.OnCompleteListener<Result>() {
+            @Override
+            public void onSuccess(Result result) {
+                if(result!=null&&result.getRetData()!=null&&result.getRetData().getMuserNick()!=null){
+                    tv.setText(result.getRetData().getMuserNick());
+                    String strJson = result.getRetData().toString();
+                    Gson  gson = new Gson();
+                    User user = gson.fromJson(strJson,User.class);
+                    if(user!=null){
+                        EaseUserUtils.setAppUserAvatar(context,name,iv,user);
+                    }
+                }else {
+                    tv.setText("未获取用户信息");
+                }
+            }
+            @Override
+            public void onError(String error) {
+                tv.setText("未获取用户信息");
+            }
+        });
+
+
+    }
+
+
+
     /**
      * data sync listener
      */
