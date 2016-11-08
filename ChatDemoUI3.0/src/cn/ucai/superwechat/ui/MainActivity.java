@@ -67,6 +67,7 @@ import cn.ucai.superwechat.dialog.TitleMenu.TitlePopup;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
@@ -397,6 +398,11 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     public class MyContactListener implements EMContactListener {
         @Override
         public void onContactAdded(String username) {
+            //这里添加好友
+            L.e(TAG+":onContactAdded,"+username+"");
+
+
+
         }
 
         @Override
@@ -416,14 +422,17 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
         @Override
         public void onContactInvited(String username, String reason) {
+            L.e(TAG+":onContactInvited,"+username+","+reason);
         }
 
         @Override
         public void onContactAgreed(String username) {
+            L.e(TAG+":onContactAgreed,"+username+",");
         }
 
         @Override
         public void onContactRefused(String username) {
+            L.e(TAG+":onContactRefused,"+username+",");
         }
     }
 
