@@ -16,15 +16,23 @@ package cn.ucai.superwechat.ui;
 import java.util.Hashtable;
 import java.util.Map;
 
+import com.google.gson.Gson;
 import com.hyphenate.chat.EMClient;
+
+import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.SuperWeChatHelper.DataSyncListener;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.data.NetDao;
+import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.ContactItemView;
+
+import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.ui.EaseContactListFragment;
 import com.hyphenate.easeui.utils.EaseUserUtils;
@@ -248,6 +256,31 @@ public class ContactListFragment extends EaseContactListFragment {
 		pd.setMessage(st1);
 		pd.setCanceledOnTouchOutside(false);
 		pd.show();
+
+
+        NetDao.deleteContact(getActivity(), EMClient.getInstance().getCurrentUser(), tobeDeleteUser.getUsername(), new OkHttpUtils.OnCompleteListener<Result>() {
+            @Override
+            public void onSuccess(Result result) {
+                //删除数据库和内存的数据
+                L.e(TAG+result.toString());
+                if(result==null||result.getRetData()==null||!result.isRetMsg()){
+                    return;
+                }
+                L.e(TAG+result.toString());
+                String jsonStr = result.getRetData().toString();
+                Gson gson = new Gson();
+                User deleteUser =gson.fromJson(jsonStr,User.class);
+                if(deleteUser==null){
+                    return;
+                }
+                SuperWeChatHelper.getInstance().deleteAppContact(deleteUser.getMUserName());
+            }
+            @Override
+            public void onError(String error) {
+                //删除失败
+
+            }
+        });
 		new Thread(new Runnable() {
 			public void run() {
 				try {
@@ -261,7 +294,6 @@ public class ContactListFragment extends EaseContactListFragment {
 							pd.dismiss();
 							contactList.remove(tobeDeleteUser);
 							contactListLayout.refresh();
-
 						}
 					});
 				} catch (final Exception e) {
@@ -271,9 +303,7 @@ public class ContactListFragment extends EaseContactListFragment {
 							Toast.makeText(getActivity(), st2 + e.getMessage(), Toast.LENGTH_LONG).show();
 						}
 					});
-
 				}
-
 			}
 		}).start();
 

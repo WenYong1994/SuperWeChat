@@ -56,6 +56,7 @@ import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.model.EaseAtMessageHelper;
 import com.hyphenate.easeui.model.EaseNotifier;
 import com.hyphenate.easeui.model.EaseNotifier.EaseNotificationInfoProvider;
+import com.hyphenate.easeui.ui.EaseConversationListFragment;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.hyphenate.exceptions.HyphenateException;
@@ -479,6 +480,13 @@ public class SuperWeChatHelper {
 
     }
 
+    public void deleteAppContact(String username){
+        new UserDao(appContext).deleteUser(username);
+        getAppContactList().remove(username);
+    }
+
+
+
     /**
      * group change listener
      */
@@ -692,7 +700,8 @@ public class SuperWeChatHelper {
             localUsers.remove(username);
             userDao.deleteContact(username);
             inviteMessgeDao.deleteMessage(username);
-
+            //删除内存的数据，并刷新
+            deleteAppContact(username);
             broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
         }
 
