@@ -728,12 +728,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-hdpi\\icon_de_yao.png"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_group.png",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-hdpi\\icon_menu_group.png"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_19.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\exploded-aar\\ChatDemoUI3.0\\EaseUI\\unspecified\\res\\drawable-hdpi-v4\\ee_19.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_menu_group.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\res\\drawable-hdpi\\icon_menu_group.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_mm_title_act_btn_normal.9.png",

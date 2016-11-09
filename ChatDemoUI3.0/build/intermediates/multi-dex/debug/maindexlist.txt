@@ -767,7 +767,6 @@ android/support/v7/widget/ViewUtils.class
 com/parse/ParseRole.class
 android/support/v4/media/MediaBrowserCompat.class
 butterknife/OnPageChange$Callback.class
-com/hyphenate/easeui/domain/EaseUser.class
 com/easemob/redpacketui/callback/GroupMemberCallback.class
 com/easemob/redpacketui/widget/RPTitleBar.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
@@ -1320,5 +1319,4 @@ org/apache/http/HttpConnectionMetrics.class
 org/apache/commons/codec/StringEncoderComparator.class
 android/support/v4/content/PermissionChecker$PermissionResult.class
 org/apache/http/conn/ClientConnectionRequest.class
-com/hyphenate/chat/EMContact.class
 org/apache/http/auth/AuthScope.class

@@ -380,12 +380,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-hdpi\\ease_mm_listitem_grey_normal.9.png"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-hdpi\\ease_chatting_setmode_keyboard_btn_pressed.png"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_to_group_details_normal.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-hdpi\\ease_to_group_details_normal.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_chatting_setmode_keyboard_btn_pressed.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\drawable-hdpi\\ease_chatting_setmode_keyboard_btn_pressed.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_chatto_voice_playing.png",

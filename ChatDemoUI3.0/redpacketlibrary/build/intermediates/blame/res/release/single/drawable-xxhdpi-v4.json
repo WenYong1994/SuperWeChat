@@ -40,12 +40,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_back_arrow_white.png"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_closed_icon.png",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_closed_icon.png"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_user.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_user.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_closed_icon.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_closed_icon.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_picture_flash_strong.png",
@@ -240,12 +240,12 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_load_dark_8.png"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_focused.9.png",
-        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\em_red_packet_chatto_bg_focused.9.png"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_refresh.png",
         "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_refresh.png"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\em_red_packet_chatto_bg_focused.9.png",
+        "source": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\res\\drawable-xxhdpi\\em_red_packet_chatto_bg_focused.9.png"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\ChatDemoUI3.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_alipay_icon.png",

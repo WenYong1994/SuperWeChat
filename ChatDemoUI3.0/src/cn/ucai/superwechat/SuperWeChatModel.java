@@ -281,6 +281,7 @@ public class SuperWeChatModel {
     public Map<String,User> getAppContactList() {
         UserDao dao = new UserDao(context);
         L.e("SuperWeChatMode"+dao.getAppContactList().toString());
+
         return dao.getAppContactList();
     }
 
