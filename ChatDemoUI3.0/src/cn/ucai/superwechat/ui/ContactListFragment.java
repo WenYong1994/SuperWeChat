@@ -223,7 +223,6 @@ public class ContactListFragment extends EaseContactListFragment {
 
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
-		if (item.getItemId() == R.id.delete_contact) {
 			try {
                 // delete contact
                 deleteContact(toBeProcessUser);
@@ -233,12 +232,7 @@ public class ContactListFragment extends EaseContactListFragment {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-			return true;
-		}else if(item.getItemId() == R.id.add_to_blacklist){
-			moveToBlacklist(toBeProcessUsername);
-			return true;
-		}
-		return super.onContextItemSelected(item);
+		return false;
 	}
 
 

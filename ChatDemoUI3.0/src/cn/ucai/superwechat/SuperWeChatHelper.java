@@ -1370,8 +1370,10 @@ public class SuperWeChatHelper {
      * save single contact
      */
     public void saveAppContact(User user){
-        appContactList.put(user.getMUserName(), user);
-        demoModel.saveAppContact(user);
+        if(user!=null){
+            appContactList.put(user.getMUserName(), user);
+            demoModel.saveAppContact(user);
+        }
     }
 
     /**

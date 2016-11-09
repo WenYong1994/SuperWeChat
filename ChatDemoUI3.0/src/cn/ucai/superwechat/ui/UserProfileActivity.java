@@ -225,6 +225,9 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         });
     }
     private void updataLocaUser(User user) {
+        if(user==null){
+            return;
+        }
         SuperWeChatHelper.getInstance().setUser(user);
         SuperWeChatHelper.getInstance().saveAppContact(user);
         EaseUserUtils.setCurrentAppUserNick(tvProfileNickname);
