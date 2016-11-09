@@ -56,10 +56,10 @@ import android.widget.Toast;
 
 /**
  * contact list
- * 
+ *
  */
 public class ContactListFragment extends EaseContactListFragment {
-	
+
     private static final String TAG = ContactListFragment.class.getSimpleName();
     private ContactSyncListener contactSyncListener;
     private BlackListSyncListener blackListSyncListener;
@@ -84,7 +84,7 @@ public class ContactListFragment extends EaseContactListFragment {
 
         registerForContextMenu(listView);
     }
-    
+
     @Override
     public void refresh() {
         Map<String, EaseUser> m = SuperWeChatHelper.getInstance().getContactList();
@@ -103,8 +103,8 @@ public class ContactListFragment extends EaseContactListFragment {
             applicationItem.hideUnreadMsgView();
         }
     }
-    
-    
+
+
     @SuppressWarnings("unchecked")
     @Override
     protected void setUpView() {
@@ -155,24 +155,24 @@ public class ContactListFragment extends EaseContactListFragment {
                 startActivity(new Intent(getActivity(), AddContactActivity.class));
             }
         });
-        
+
 
         contactSyncListener = new ContactSyncListener();
         SuperWeChatHelper.getInstance().addSyncContactListener(contactSyncListener);
-        
+
         blackListSyncListener = new BlackListSyncListener();
         SuperWeChatHelper.getInstance().addSyncBlackListListener(blackListSyncListener);
-        
+
         contactInfoSyncListener = new ContactInfoSyncListener();
         SuperWeChatHelper.getInstance().getUserProfileManager().addSyncContactInfoListener(contactInfoSyncListener);
-        
+
         if (SuperWeChatHelper.getInstance().isContactsSyncedWithServer()) {
             loadingView.setVisibility(View.GONE);
         } else if (SuperWeChatHelper.getInstance().isSyncingContactsWithServer()) {
             loadingView.setVisibility(View.VISIBLE);
         }
     }
-    
+
     @Override
     public void onDestroy() {
         super.onDestroy();
@@ -180,17 +180,17 @@ public class ContactListFragment extends EaseContactListFragment {
             SuperWeChatHelper.getInstance().removeSyncContactListener(contactSyncListener);
             contactSyncListener = null;
         }
-        
+
         if(blackListSyncListener != null){
             SuperWeChatHelper.getInstance().removeSyncBlackListListener(blackListSyncListener);
         }
-        
+
         if(contactInfoSyncListener != null){
             SuperWeChatHelper.getInstance().getUserProfileManager().removeSyncContactInfoListener(contactInfoSyncListener);
         }
     }
-    
-	
+
+
 	protected class HeaderItemClickListener implements OnClickListener{
 
         @Override
@@ -217,9 +217,9 @@ public class ContactListFragment extends EaseContactListFragment {
                 break;
             }
         }
-	    
+
 	}
-	
+
 
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
@@ -246,7 +246,7 @@ public class ContactListFragment extends EaseContactListFragment {
 
 	/**
 	 * delete contact
-	 * 
+	 *
 	 * @param tobeDeleteUser
 	 */
 	public void deleteContact(final EaseUser tobeDeleteUser) {
@@ -274,10 +274,17 @@ public class ContactListFragment extends EaseContactListFragment {
                     return;
                 }
                 SuperWeChatHelper.getInstance().deleteAppContact(deleteUser.getMUserName());
+                contactListLayout.refresh();
             }
+
             @Override
             public void onError(String error) {
                 //删除失败
+
+
+
+
+
 
             }
         });
@@ -303,7 +310,9 @@ public class ContactListFragment extends EaseContactListFragment {
 							Toast.makeText(getActivity(), st2 + e.getMessage(), Toast.LENGTH_LONG).show();
 						}
 					});
+
 				}
+
 			}
 		}).start();
 
