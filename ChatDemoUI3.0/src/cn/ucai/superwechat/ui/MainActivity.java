@@ -134,7 +134,6 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
 
         inviteMessgeDao = new InviteMessgeDao(this);
         UserDao userDao = new UserDao(this);
-    	conversationListFragment = new ConversationListFragment();
 		/*contactListFragment = new ContactListFragment();
 		SettingsFragment settingFragment = new SettingsFragment();
 		fragments = new Fragment[] { conversationListFragment, contactListFragment, settingFragment};
@@ -232,6 +231,7 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         mMainAvtivityMFViewPager.setOffscreenPageLimit(4);
         mAdapter.clear();
         contactListFragment=new ContactListFragment();
+        conversationListFragment=new ConversationListFragment();
         mAdapter.addFragment(conversationListFragment,getString(R.string.app_name));
         mAdapter.addFragment(contactListFragment,getString(R.string.contacts));
         mAdapter.addFragment(new DiscoverFragment(),getString(R.string.discover));
@@ -462,12 +462,22 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      */
     public void updateUnreadLabel() {
         int count = getUnreadMsgCountTotal();
-		/*if (count > 0) {
-			unreadLabel.setText(String.valueOf(count));
-			unreadLabel.setVisibility(View.VISIBLE);
+		if (count > 0) {
+//			unreadLabel.setText(String.valueOf(count));
+//			unreadLabel.setVisibility(View.VISIBLE);
+            if(mMainAvtivityDMTableHost!=null){
+                mMainAvtivityDMTableHost.setUnreadCount(0,count);
+            }
+            if(conversationListFragment!=null){
+                conversationListFragment.refresh();
+            }
 		} else {
-			unreadLabel.setVisibility(View.INVISIBLE);
-		}*/
+            if(mMainAvtivityDMTableHost!=null){
+                mMainAvtivityDMTableHost.setUnreadCount(0,0);
+                mMainAvtivityDMTableHost.setHasNew(0,false);
+            }
+//			unreadLabel.setVisibility(View.INVISIBLE);
+		}
     }
 
     /**

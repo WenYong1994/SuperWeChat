@@ -116,7 +116,10 @@ public class UserProfileManager {
 		if (currentUser == null) {
 			String username = EMClient.getInstance().getCurrentUser();
 			currentUser = new EaseUser(username);
-			String nick = SuperWeChatHelper.getInstance().getUser().getMUserNick();
+			String nick=null;
+			if(SuperWeChatHelper.getInstance().getUser()!=null){
+				nick = SuperWeChatHelper.getInstance().getUser().getMUserNick();
+			}
 			currentUser.setNick((nick != null) ? nick : username);
 			currentUser.setAvatar(getCurrentUserAvatar());
 		}
