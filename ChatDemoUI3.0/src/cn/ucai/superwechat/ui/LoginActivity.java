@@ -255,7 +255,7 @@ public class LoginActivity extends BaseActivity {
             Toast.makeText(this, R.string.network_isnot_available, Toast.LENGTH_SHORT).show();
             return;
         }
-        String currentUsername = mUsername.getText().toString().trim();
+        final String currentUsername = mUsername.getText().toString().trim();
         String currentPassword = mPassword.getText().toString().trim();
 
 
@@ -275,21 +275,31 @@ public class LoginActivity extends BaseActivity {
                     return;
                 }
                 L.e(result.toString());
-                Gson gson = new Gson();
-                Result result1 = gson.fromJson(result, Result.class);
+                final Gson gson = new Gson();
+                final Result result1 = gson.fromJson(result, Result.class);
                 if(result1==null||result1.getRetData()==null){
                     return;
                 }
-                String gsonStr = result1.getRetData().toString();
+                final String gsonStr = result1.getRetData().toString();
                 user = gson.fromJson(gsonStr,User.class);
-                L.e(user.toString());
-                if(result1.isRetMsg()){
-                    //将数据保存到数据库
-                    new UserDao(LoginActivity.this).savaUser(user);
-                    //将对象保存到内存
-                    SuperWeChatHelper.getInstance().setUser(user);
-                    isLoginSuccess(user);
-                }
+                new Thread(){
+                    @Override
+                    public void run() {
+                        while(user.getMUserNick()==null){
+                            L.e(gsonStr);
+                            user = gson.fromJson(gsonStr,User.class);
+                        }
+                        L.e(user.toString());
+                        if(result1.isRetMsg()){
+                            //将数据保存到数据库
+                            new UserDao(LoginActivity.this).savaUser(user);
+                            //将对象保存到内存
+                            SuperWeChatHelper.getInstance().setUser(user);
+                            isLoginSuccess(user);
+                        }
+                    }
+                }.start();
+
             }
 
             @Override
