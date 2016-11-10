@@ -6,6 +6,7 @@ import java.io.File;
 
 import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.bean.ResultContact;
 import cn.ucai.superwechat.utils.MD5;
 
 /**
@@ -130,5 +131,44 @@ public class NetDao {
                 .targetClass(Result.class)
                 .execute(listener);
     }
+
+
+    public static void getContactList(Context context, String userName, OkHttpUtils.OnCompleteListener<ResultContact> listener) {
+        OkHttpUtils<ResultContact> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_DOWNLOAD_CONTACT_ALL_LIST)
+                .addParam(I.Contact.USER_NAME, userName)
+                .targetClass(ResultContact.class)
+                .execute(listener);
+    }
+
+    public static void createGroup(Context context,String hunxinId, String groupName,String desc,String owner,boolean isPublic,boolean isAllowInvites,File file, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_CREATE_GROUP)
+                .addParam(I.Group.HX_ID,hunxinId)
+                .addParam(I.Group.NAME,groupName)
+                .addParam(I.Group.DESCRIPTION,desc)
+                .addParam(I.Group.OWNER,owner)
+                .addParam(I.Group.IS_PUBLIC,isPublic+"")
+                .addParam(I.Group.ALLOW_INVITES,isAllowInvites+"")
+                .addFile2(file)
+                .targetClass(String.class)
+                .post()
+                .execute(listener);
+    }
+
+    public static void createGroup(Context context,String hunxinId, String groupName,String desc,String owner,boolean isPublic,boolean isAllowInvites, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_CREATE_GROUP)
+                .addParam(I.Group.HX_ID,hunxinId)
+                .addParam(I.Group.NAME,groupName)
+                .addParam(I.Group.DESCRIPTION,desc)
+                .addParam(I.Group.OWNER,owner)
+                .addParam(I.Group.IS_PUBLIC,isPublic+"")
+                .addParam(I.Group.ALLOW_INVITES,isAllowInvites+"")
+                .targetClass(String.class)
+                .post()
+                .execute(listener);
+    }
+
 
 }

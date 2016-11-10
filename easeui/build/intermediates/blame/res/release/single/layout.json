@@ -136,24 +136,24 @@
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_video.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_picture.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_picture.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_fragment_contact_list.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_fragment_contact_list.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_picture.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_picture.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_row_received_file.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_row_received_file.xml"
     },
     {
-        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_title_bar.xml",
-        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_title_bar.xml"
-    },
-    {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_layout_emojicon_menu.xml",
         "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_title_bar.xml",
+        "source": "E:\\androidDevelopment\\SuperWechat\\easeui\\res\\layout\\ease_widget_title_bar.xml"
     },
     {
         "merged": "E:\\androidDevelopment\\SuperWechat\\easeui\\build\\intermediates\\res\\merged\\release\\layout\\ease_widget_emojicon_tab_bar.xml",

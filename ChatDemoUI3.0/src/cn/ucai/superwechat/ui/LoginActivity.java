@@ -32,6 +32,11 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -39,6 +44,8 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.bean.ResultContact;
+import cn.ucai.superwechat.bean.RetData;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
@@ -64,6 +71,7 @@ public class LoginActivity extends BaseActivity {
     private boolean progressShow;
     private boolean autoLogin = false;
     ProgressDialog pd=null;
+    User user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -179,13 +187,13 @@ public class LoginActivity extends BaseActivity {
         });
     }
 
-    private void isLoginSuccess() {
+    private void isLoginSuccess(User user) {
         // ** manually load all local groups and conversation
         EMClient.getInstance().groupManager().loadAllGroups();
         EMClient.getInstance().chatManager().loadAllConversations();
 
         // update current user's display name for APNs
-        boolean updatenick = EMClient.getInstance().updateCurrentUserNick(
+        final boolean updatenick = EMClient.getInstance().updateCurrentUserNick(
                 SuperWeChatApplication.currentUserNick.trim());
         if (!updatenick) {
             Log.e("LoginActivity", "update current user nick fail");
@@ -196,6 +204,7 @@ public class LoginActivity extends BaseActivity {
         }
         // get user's info (this should be get from App's server or 3rd party service)
         SuperWeChatHelper.getInstance().getUserProfileManager().asyncGetCurrentUserInfo();
+        SuperWeChatHelper.getInstance().asyAppContactList(mUsername.getText().toString().trim(),user);
 
         Intent intent = new Intent(LoginActivity.this,
                 MainActivity.class);
@@ -272,13 +281,14 @@ public class LoginActivity extends BaseActivity {
                     return;
                 }
                 String gsonStr = result1.getRetData().toString();
-                User user = gson.fromJson(gsonStr,User.class);
+                user = gson.fromJson(gsonStr,User.class);
+                L.e(user.toString());
                 if(result1.isRetMsg()){
                     //将数据保存到数据库
                     new UserDao(LoginActivity.this).savaUser(user);
                     //将对象保存到内存
                     SuperWeChatHelper.getInstance().setUser(user);
-                    isLoginSuccess();
+                    isLoginSuccess(user);
                 }
             }
 

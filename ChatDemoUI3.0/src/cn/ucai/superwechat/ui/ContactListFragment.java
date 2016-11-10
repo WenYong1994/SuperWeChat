@@ -89,6 +89,7 @@ public class ContactListFragment extends EaseContactListFragment {
         if (m instanceof Hashtable<?, ?>) {
             //noinspection unchecked
             m = (Map<String, User>) ((Hashtable<String, User>)m).clone();
+            //m.remove(EMClient.getInstance().getCurrentUser());
         }
         setContactsMap(m);
         super.refresh();
@@ -120,6 +121,7 @@ public class ContactListFragment extends EaseContactListFragment {
         Map<String, User> m = SuperWeChatHelper.getInstance().getAppContactList();
         if (m instanceof Hashtable<?, ?>) {
             m = (Map<String, User>) ((Hashtable<String, User>)m).clone();
+            //m.remove(EMClient.getInstance().getCurrentUser());
         }
         setContactsMap(m);
         super.setUpView();

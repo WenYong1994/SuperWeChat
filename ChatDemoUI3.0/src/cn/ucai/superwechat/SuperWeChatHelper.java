@@ -28,6 +28,7 @@ import com.hyphenate.chat.EMOptions;
 import com.hyphenate.chat.EMTextMessageBody;
 
 import cn.ucai.superwechat.bean.Result;
+import cn.ucai.superwechat.bean.ResultContact;
 import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
@@ -99,6 +100,40 @@ public class SuperWeChatHelper {
 
     }
 
+    public void asyAppContactList(String userName, final User user) {
+        NetDao.getContactList(appContext, userName, new OkHttpUtils.OnCompleteListener<ResultContact>() {
+            @Override
+            public void onSuccess(ResultContact result) {
+                L.e("wenyong",TAG+","+result.getRetData().toString());
+                if(result==null||result.getRetData().toString()==null){
+                    return;
+                }
+                Gson gson = new Gson();
+                User[] users = gson.fromJson(result.getRetData().toString(), User[].class);
+
+                if(users==null||users.length==0){
+                    return;
+                }
+                ArrayList<User> list = new ArrayList<User>();
+                Map<String,User> map = new HashMap<String, User>();
+                for(User u : users){
+                    list.add(u);
+                    map.put(u.getMUserName(),u);
+                }
+                list.add(user);
+                map.put(user.getMUserName(),user);
+                setAppContactList(map);
+                new UserDao(appContext).saveAppContactList(list);
+
+                broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+            }
+
+            @Override
+            public void onError(String error) {
+                L.e("wenyong",error);
+            }
+        });
+    }
 
 
     /**

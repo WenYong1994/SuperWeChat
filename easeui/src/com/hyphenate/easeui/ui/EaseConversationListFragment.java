@@ -165,7 +165,9 @@ public class EaseConversationListFragment extends EaseBaseFragment{
 	            {
 	            	conversationList.clear();
 	                conversationList.addAll(loadConversationList());
-	                conversationListView.refresh();
+                    if(conversationListView!=null){
+                        conversationListView.refresh();
+                    }
 	                break;
 	            }
             default:
