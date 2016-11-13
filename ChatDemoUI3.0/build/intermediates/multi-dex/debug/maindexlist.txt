@@ -181,6 +181,7 @@ cn/ucai/superwechat/utils/CommonUtils.class
 com/huawei/android/pushagent/PushReceiver.class
 cn/ucai/superwechat/ui/RecorderVideoActivity$5.class
 com/hyphenate/easeui/ui/EaseShowBigImageActivity$1.class
+cn/ucai/superwechat/ui/NewGroupActivity$6.class
 org/apache/http/impl/client/TunnelRefusedException.class
 org/apache/http/HttpHost.class
 com/parse/Parse.class
@@ -670,6 +671,7 @@ butterknife/OnFocusChange.class
 cn/ucai/superwechat/ui/CallActivity$2$1.class
 com/huawei/android/pushagent/a/e.class
 android/support/v7/app/ActionBar$NavigationMode.class
+cn/ucai/superwechat/ui/NewGroupActivity$7.class
 org/apache/commons/codec/EncoderException.class
 org/apache/http/auth/AuthState.class
 com/xiaomi/mipush/sdk/g.class
@@ -1180,6 +1182,7 @@ org/apache/http/protocol/RequestTargetHost.class
 android/support/annotation/Nullable.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
+cn/ucai/superwechat/ui/NewGroupActivity$8.class
 org/apache/http/HeaderIterator.class
 cn/ucai/superwechat/adapter/NewFriendsMsgAdapter.class
 com/xiaomi/mipush/sdk/f.class

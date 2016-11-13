@@ -2,11 +2,15 @@ package cn.ucai.superwechat.data;
 
 import android.content.Context;
 
+import com.hyphenate.chat.EMGroup;
+
 import java.io.File;
 
 import cn.ucai.superwechat.I;
+import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.bean.Result;
 import cn.ucai.superwechat.bean.ResultContact;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MD5;
 
 /**
@@ -171,4 +175,22 @@ public class NetDao {
     }
 
 
+    public static void addGooupMeMeber(Context context, EMGroup emGroup, OkHttpUtils.OnCompleteListener<String> listener){
+        StringBuilder sb = new StringBuilder();
+        for(String s:emGroup.getMembers()){
+            if(!s.equals(SuperWeChatHelper.getInstance().getCurrentUsernName())){
+                sb.append(s+",");
+            }
+        }
+
+        String memArr =sb.toString().substring(0,sb.toString().length()-1);
+        L.e(memArr);
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBERS)
+                .addParam(I.Member.GROUP_HX_ID,emGroup.getGroupId())
+                .addParam(I.Member.USER_NAME,memArr)
+                .targetClass(String.class)
+                .execute(listener);
+
+    }
 }

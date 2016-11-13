@@ -218,7 +218,7 @@ public class EaseMessageAdapter extends BaseAdapter{
 		return -1;// invalid
 	}
 	
-	protected EaseChatRow createChatRow(Context context, EMMessage message, int position) {
+	protected EaseChatRow createChatRow(Context context, final EMMessage message, int position) {
         EaseChatRow chatRow = null;
         if(customRowProvider != null && customRowProvider.getCustomChatRow(message, position, this) != null){
             return customRowProvider.getCustomChatRow(message, position, this);
@@ -229,6 +229,12 @@ public class EaseMessageAdapter extends BaseAdapter{
                 chatRow = new EaseChatRowBigExpression(context, message, position, this);
             }else{
                 chatRow = new EaseChatRowText(context, message, position, this);
+				((EaseChatRowText)chatRow).setSetNickLisetener(new EaseChatRowText.SetUserNick() {
+					@Override
+					public String setUserNick() {
+						return message.getFrom();
+					}
+				});
             }
             break;
         case LOCATION:

@@ -92,18 +92,21 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		if (msg != null) {
 		    
 		    holder.agree.setVisibility(View.GONE);
-
 			if(msg.getGroupId() != null){ // show group name
 				holder.groupContainer.setVisibility(View.VISIBLE);
 				holder.groupname.setText(msg.getGroupName());
+				holder.reason.setText(msg.getReason());
+				EaseUserUtils.setAppGroupAvatar(context,msg.getGroupId(),holder.avator);
 			} else{
 				holder.groupContainer.setVisibility(View.GONE);
+				SuperWeChatHelper.getInstance().setAppUserInfoByUserNameOnLine(context,msg.getFrom(),holder.name,holder.avator);
+				holder.reason.setText(msg.getReason());
 			}
-			
-			holder.reason.setText(msg.getReason());
+
+
 
 			//设置这个人的头像；和昵称
-			SuperWeChatHelper.getInstance().setAppUserInfoByUserNameOnLine(context,msg.getFrom(),holder.name,holder.avator);
+
 
 			//holder.name.setText(msg.getFrom());
 

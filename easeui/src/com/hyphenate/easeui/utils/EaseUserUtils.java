@@ -12,6 +12,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.engine.Engine;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.R;
+import com.hyphenate.easeui.bean.Group;
 import com.hyphenate.easeui.bean.User;
 import com.hyphenate.easeui.controller.EaseUI;
 import com.hyphenate.easeui.controller.EaseUI.EaseUserProfileProvider;
@@ -172,9 +173,24 @@ public class EaseUserUtils {
     public static void setAppUserNameWithNo(String userName,TextView tvProfileUsername) {
 
         setAppUserName("微信号：",userName,tvProfileUsername);
-
-
     }
+
+    public static void setAppGroupAvatar(Context context,String hxid,ImageView iv) {
+        if(hxid != null){
+            try {
+                int avatarResId = Integer.parseInt(Group.getAvatar(hxid));
+                Glide.with(context).load(avatarResId).into(iv);
+            } catch (Exception e) {
+                //use default avatar
+                Log.e("SuperWeChat",Group.getAvatar(hxid));
+                Glide.with(context).load(Group.getAvatar(hxid)).diskCacheStrategy(DiskCacheStrategy.ALL).placeholder(R.drawable.default_avatar_1).into(iv);
+                Log.e("SuperWeChat",Group.getAvatar(hxid));
+            }
+        }else{
+            Glide.with(context).load(R.drawable.default_avatar_1).into(iv);
+        }
+    }
+
 
 
 }

@@ -38,6 +38,7 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMGroupManager.EMGroupOptions;
 import com.hyphenate.chat.EMGroupManager.EMGroupStyle;
+import com.hyphenate.easeui.bean.Group;
 import com.hyphenate.easeui.utils.EaseImageUtils;
 import com.hyphenate.easeui.widget.EaseAlertDialog;
 import com.hyphenate.exceptions.HyphenateException;
@@ -58,6 +59,7 @@ import cn.ucai.superwechat.data.NetDao;
 import cn.ucai.superwechat.data.OkHttpUtils;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
+import cn.ucai.superwechat.utils.MFGT;
 
 public class NewGroupActivity extends BaseActivity {
     private static final int REQUESTCODE_PICK = 1;
@@ -78,6 +80,7 @@ public class NewGroupActivity extends BaseActivity {
     String groupId;
     String groupName;
     String desc;
+    EMGroup group;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -148,7 +151,7 @@ public class NewGroupActivity extends BaseActivity {
                                 } else {
                                     option.style = memberCheckbox.isChecked() ? EMGroupStyle.EMGroupStylePrivateMemberCanInvite : EMGroupStyle.EMGroupStylePrivateOnlyOwnerInvite;
                                 }
-                                EMGroup group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
+                                group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
                                 groupId = group.getGroupId();
 
                                 //下面有耗时操作，所以放到新线程里面去
@@ -206,25 +209,9 @@ public class NewGroupActivity extends BaseActivity {
                     Gson gson = new Gson();
                     ResultContact resultContact = gson.fromJson(s,ResultContact.class);
                     if(resultContact!=null&&resultContact.isRetMsg()){
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                setResult(RESULT_OK);
-                                finish();
-                            }
-                        });
+                        createGroupOnscucess();
                     }else {
-                        try {
-                            EMClient.getInstance().groupManager().destroyGroup(groupId);
-                        } catch (HyphenateException e) {
-                            e.printStackTrace();
-                        }
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                finish();
-                            }
-                        });
+                        createGroupFinal(groupId);
                     }
 
                 }
@@ -259,29 +246,23 @@ public class NewGroupActivity extends BaseActivity {
             @Override
             public void onSuccess(String s) {
                 progressDialog.dismiss();
+                CommonUtils.showShortToast("创建群主成功");
                 L.e("wenyong",s.toString());
                 Gson gson = new Gson();
                 ResultContact resultContact = gson.fromJson(s,ResultContact.class);
                 if(resultContact!=null&&resultContact.isRetMsg()) {
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            setResult(RESULT_OK);
-                            finish();
-                        }
-                    });
-                }else {
-                    try {
-                        EMClient.getInstance().groupManager().destroyGroup(groupId);
-                    } catch (HyphenateException e) {
-                        e.printStackTrace();
+                    if(group!=null&&group.getMembers()!=null&&group.getMembers().size()>1){
+                        addGroupMember();
+                    }else {
+                        createGroupOnscucess();
                     }
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            finish();
-                        }
-                    });
+                    String jsonstr = resultContact.getRetData().toString();
+                    Group group = gson.fromJson(jsonstr,Group.class);
+                    L.e("wenyong",group.toString());
+
+                }else {
+                    CommonUtils.showShortToast("创建群组失败");
+                    createGroupFinal(groupId);
                 }
             }
 
@@ -309,6 +290,52 @@ public class NewGroupActivity extends BaseActivity {
             }
         });
 
+    }
+
+    private void addGroupMember() {
+        NetDao.addGooupMeMeber(this, group, new OkHttpUtils.OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                Gson gson = new Gson();
+                if(s!=null){
+                    ResultContact resultContact =gson.fromJson(s,ResultContact.class);
+                    if(resultContact!=null&&resultContact.getRetData()!=null){
+                        createGroupOnscucess();
+                    }
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                CommonUtils.showShortToast("添加群成员失败");
+                progressDialog.dismiss();
+                MFGT.finish(NewGroupActivity.this);
+            }
+        });
+    }
+
+    private void createGroupFinal(String groupId) {
+        try {
+            EMClient.getInstance().groupManager().destroyGroup(groupId);
+        } catch (HyphenateException e) {
+            e.printStackTrace();
+        }
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                finish();
+            }
+        });
+    }
+
+    private void createGroupOnscucess() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                setResult(RESULT_OK);
+                finish();
+            }
+        });
     }
 
     private void upDataAppGroupAvatar(Intent data) {
@@ -403,6 +430,7 @@ public class NewGroupActivity extends BaseActivity {
         }
         return null;
     }
+
 
 
 

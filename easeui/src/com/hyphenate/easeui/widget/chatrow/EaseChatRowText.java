@@ -18,9 +18,15 @@ import android.widget.TextView.BufferType;
 public class EaseChatRowText extends EaseChatRow{
 
 	private TextView contentView;
+    private TextView userNick;
+    String userName;
+    SetUserNick wenyong;
 
     public EaseChatRowText(Context context, EMMessage message, int position, BaseAdapter adapter) {
 		super(context, message, position, adapter);
+        message.getFrom();
+        this.position=position;
+        userName=message.getFrom();
 	}
 
 	@Override
@@ -32,6 +38,7 @@ public class EaseChatRowText extends EaseChatRow{
 	@Override
 	protected void onFindViewById() {
 		contentView = (TextView) findViewById(R.id.tv_chatcontent);
+        userNick = (TextView) findViewById(R.id.userNick);
 	}
 
     @Override
@@ -40,9 +47,13 @@ public class EaseChatRowText extends EaseChatRow{
         Spannable span = EaseSmileUtils.getSmiledText(context, txtBody.getMessage());
         // 设置内容
         contentView.setText(span, BufferType.SPANNABLE);
-
         handleTextMessage();
     }
+
+    public void setSetNickLisetener(SetUserNick wenyong){
+        this.wenyong=wenyong;
+    }
+
 
     protected void handleTextMessage() {
         if (message.direct() == EMMessage.Direct.SEND) {
@@ -89,6 +100,9 @@ public class EaseChatRowText extends EaseChatRow{
         
     }
 
+    public  interface  SetUserNick{
+        String setUserNick();
+    }
 
 
 }

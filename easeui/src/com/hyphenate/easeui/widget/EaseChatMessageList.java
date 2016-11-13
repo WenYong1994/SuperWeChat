@@ -66,6 +66,7 @@ public class EaseChatMessageList extends RelativeLayout{
         
         conversation = EMClient.getInstance().chatManager().getConversation(toChatUsername, EaseCommonUtils.getConversationType(chatType), true);
         messageAdapter = new EaseMessageAdapter(context, toChatUsername, chatType, listView);
+
         messageAdapter.setShowAvatar(showAvatar);
         messageAdapter.setShowUserNick(showUserNick);
         messageAdapter.setMyBubbleBg(myBubbleBg);
